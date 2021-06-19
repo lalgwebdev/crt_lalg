@@ -1,0 +1,97 @@
+/* lalg.css
+ * For css changes that affect every page. Primarily the header and layout changes.
+ * Might need to seperate certain layout changes to make better use of the weighting system.
+ */
+
+.container { /* Expand potential width to handle wide monitors. */
+  max-width: 2000px;
+}
+
+.block {
+  	margin-bottom: 2px;
+}
+
+.main-header {
+  background: url(../images/bg-header.png);
+}
+
+.block-views-blockcurrent-user-block-current-user {
+  float: right;
+  margin-left: 15px;
+}
+
+.site-branding {
+  display: inline;
+}
+
+.site-branding__name {
+  padding-top: 15px;
+}
+
+.site-branding__name a {
+  font-size: 5rem;
+  color: #13a6d2;
+}
+
+.search-block-form {
+  width: 30%;
+  float: right;
+}
+.search-block-form input {
+  padding: 1px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.search-block-form #edit-actions {
+  width: 20%;
+}
+
+#block-views-block-editorsnotes-block-1,
+#block-views-block-editor-s-notes-block-1-2 {  /*Editors Notes*/
+  font-size: 1.2vw;
+  padding: 1vw;
+  display: inline-block;
+  float: right;
+  width: 50%;
+  background: yellow;
+}
+
+/* Menu starts here */
+
+/* Fix error in z-index that puts menu behind the slideshow pictures */
+.main-header .region {
+  z-index: 200;
+  margin-top: 2px;
+}
+
+ul.sf-menu {
+  margin-bottom: 0px;
+  line-height: inherit;
+}
+ul.sf-menu a {
+  font-size: 16px;
+}
+
+/* Slideshow starts here */
+@media (min-width: 1920px) { /* Actual image width is 1920px so nothing is gained from going higher. */
+  .slideshow {
+    width: 1920px;
+  }
+}
+
+/* Break out below into seperate files */
+
+/* Front page content */
+/* Fix width overlapping right sidebar */
+article.node--type-article,
+article.node--type-event {
+  width: auto;
+}
+
+/* A to Z specfic content */
+.az-row-group .views-field-view-node a.atoz-link::before {
+  content: "";
+}
+.az-row-group .views-field-view-node a.atoz-link {
+  padding-left: 0px;
+}
