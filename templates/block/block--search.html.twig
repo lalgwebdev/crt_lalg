@@ -40,8 +40,6 @@ set classes = [
 'block-' ~ configuration.provider|clean_class,
 ]
 %}
-{% set search='\"Search\"' %}
-{% set replace='\"\"' %}
 <div{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if label %}
