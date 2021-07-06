@@ -117,7 +117,7 @@ ul.sf-menu.sf-style-blue {
   font-weight: normal;
 }
 #block-searchform #edit-actions {
-  width: 5%;
+  width: 25px;
 }
 #block-searchform #edit-actions input {
   background-image: url(../images/ico-search.png);
