@@ -1,0 +1,8 @@
+/* Find Contacts Page */
+div.lalg-view-findcontacts .form-item {float: left; padding-right: 40px;}
+div.lalg-view-findcontacts label {display: block;}
+div.lalg-view-findcontacts #edit-actions {clear:both;}
+div.lalg-view-findcontacts th  {text-align: left;}
+div.lalg-view-findcontacts th a {color: white;}
+div.lalg-view-findcontacts th.views-field {color: white; padding-left: 10px; font-family: verdana;}
+
