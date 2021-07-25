@@ -1,3 +1,42 @@
+/***********  Styling for User-facing Membership Pages  ************/
+
+/***********  General, for all affected Pages  **************/
+
+.lalg-memb-wf {
+	font-size: 1.1em;
+}
+
+/************  Webform General  ***********/
+
+form.lalg-memb-wf .lalg-memb-hidden: {
+	display: none;
+}
+
+form.lalg-memb-wf .lalg-memb-short {
+	width: 150px;
+}
+form.lalg-memb-wf .lalg-memb-medium {
+	width: 300px;
+}
+form.lalg-memb-wf .lalg-memb-long {
+	width: 450px;
+}
+
+form.lalg-memb-wf input,
+form.lalg-memb-wf select {
+	padding: 5px 9px;
+}
+
+/************  Webform Fields  ***********/
+
+form.lalg-memb-wf input.lalg-memb-id {
+	display: block;
+	background-color: #ffffff;
+}
+
+
+/***********  Views  ***********/
+
 /* Find Contacts Page */
 div.lalg-view-findcontacts .form-item {float: left; padding-right: 40px;}
 div.lalg-view-findcontacts label {display: block;}
