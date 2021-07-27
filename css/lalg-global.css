@@ -31,12 +31,22 @@ tr:nth-child(even) {
 }
 th {
     padding: 10px 0px;
-    text-align: center;
     background-color: #303030;
+    text-align: left;
+    color: white; 
+    padding-left: 10px; 
+    font-family: verdana;
 }
+th a {color: white;}
+
+/* forms */
+form.views-exposed-form .form-item {float: left; padding-right: 40px;}
+form.views-exposed-form label {display: block;}
+form.views-exposed-form #edit-actions {clear:both;}
+
 
 /* Expand potential width to handle wide monitors. */
-.container { 
+.container {
   max-width: 2000px;
 }
 /* otherwise the display is narrow on wide moniters */
@@ -100,10 +110,9 @@ ul.sf-menu.sf-style-blue {
 .site-branding__name a {
   font-size: 4rem;
   color: #13a6d2;
-  text-decoration: none;
 }
 
-@media (max-width: 766px) { 
+@media (max-width: 766px) {
 .site-branding__name a {
   font-size: 3rem; }
 }
@@ -129,21 +138,31 @@ ul.sf-menu.sf-style-blue {
   background-position: center;
 }
 
-#block-views-block-editorsnotes-block-1,
-#block-views-block-editor-s-notes-block-1-2 {  /*Editors Notes*/
-  font-size: 1.2vw;
-  padding: 1vw;
+
+/* Editors Notes View */
+.editorsnotes {
   display: inline-block;
   float: right;
   width: 50%;
   background: yellow;
+  padding: 12px;
+  padding-top: 0px;
+  font-family: Verdana;
+  font-size: 12px;
+
 }
+.editorsnotes h2 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 80%;
+}
+
 
 /* Menu starts here */
 
-/* Fix error in z-index that puts menu behind the slideshow pictures */
+/* Fix error in 15:16 22/07/2021ndex that puts menu behind the slideshow pictures */
 .main-header .region {
-  z-index: 200;
+  z-index: 50; 
   margin-top: 2px;
 }
 
@@ -167,11 +186,11 @@ ul.sf-menu .sf-with-ul {
 
 /* adjust the look of the title Main menu and delete the 3 vertical bars */
 div.sf-accordion-toggle.sf-style-blue a  {
-	display: block; 
-	text-align: center; 
-	font-size: 1.25em; 
-	text-transform: uppercase;
-	padding: 0.7em 0 0.7em 0;
+    display: block;
+    text-align: center;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    padding: 0.7em 0 0.7em 0;
 
 }
 div.sf-accordion-toggle.sf-style-blue > a:after {display: none;}
@@ -188,7 +207,7 @@ div.sf-accordion-toggle.sf-style-blue > a:after {display: none;}
 /* Slideshow and image height */
 .views_slideshow_cycle_teaser_section {height: calc(50vh + 2em);}
 .views_slideshow_cycle_teaser_section img {height: 50vh;}
-@media (max-width: 766px) { 
+@media (max-width: 766px) {
    .views_slideshow_cycle_teaser_section {height: calc(25vh + 2em);}
    .views_slideshow_cycle_teaser_section img {height: 25vh;}
 }
@@ -208,8 +227,8 @@ div.sf-accordion-toggle.sf-style-blue > a:after {display: none;}
 
 /* sidebars */
 .sidebar > .col-md-3 {
-	background-color: #1da9d31c;
-	padding-bottom: 1.2em;
+    background-color: #1da9d31c;
+    padding-bottom: 1.2em;
 }
 /* Coming shortly on home page - separate rows a little */
 .region-sidebar-first .views-row {padding-bottom: 1em;}
@@ -217,7 +236,7 @@ div.sf-accordion-toggle.sf-style-blue > a:after {display: none;}
 /* bring main content up to top */
 .content_layout > .col-md-6 {margin-top: -20px;}
 
- 
+
 
 /* Front page content */
 /* Fix width overlapping right sidebar */
