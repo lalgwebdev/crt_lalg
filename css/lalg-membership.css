@@ -34,14 +34,5 @@ form.lalg-memb-wf input.lalg-memb-id {
 	background-color: #ffffff;
 }
 
-
-/***********  Views  ***********/
-
-/* Find Contacts Page */
-div.lalg-view-findcontacts .form-item {float: left; padding-right: 40px;}
-div.lalg-view-findcontacts label {display: block;}
-div.lalg-view-findcontacts #edit-actions {clear:both;}
-div.lalg-view-findcontacts th  {text-align: left;}
-div.lalg-view-findcontacts th a {color: white;}
-div.lalg-view-findcontacts th.views-field {color: white; padding-left: 10px; font-family: verdana;}
+/* Removed lalg-view-findcontacts styling as now in lalg-global and applies to all tables (TJS 27/07/21) */
 
