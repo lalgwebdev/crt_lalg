@@ -1,0 +1,48 @@
+{#
+/**
+ * @file
+ * LALG theme override for taxonomy term fields.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the containing element.
+ * - label_hidden: Whether to show the field label or not.
+ * - title_attributes: HTML attributes for the label.
+ * - label: The label for the field.
+ * - content_attributes: HTML attributes for the content.
+ * - items: List of all the field items. Each item contains:
+ *   - attributes: List of HTML attributes for each item.
+ *   - content: The field item's content.
+ * - entity_type: The entity type to which the field belongs.
+ * - field_name: The name of the field.
+ * - field_type: The type of the field.
+ * - label_display: The display settings for the label.
+ *
+ * @see template_preprocess_field()
+ */
+#}
+{%
+  set classes = [
+    'lalg-tags',
+  ]
+%}
+{%
+  set title_classes = [
+    'lalg-tags-title',
+    label_display == 'inline' ? 'inline',
+  ]
+%}
+{%
+  set li_classes = [
+    'lalg-tags-li',
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+  {% if not label_hidden %}
+    <span{{ title_attributes.addClass(title_classes) }}>{{ label }}</span>
+  {% endif %}
+  <ul class="lalg-tags-ul">
+    {% for item in items %}
+      <li{{ item.attributes.addClass(li_classes) }}>{{ item.content }}</li>
+    {% endfor %}
+  </ul>
+</div>
