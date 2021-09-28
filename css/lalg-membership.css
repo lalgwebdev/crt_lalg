@@ -8,7 +8,7 @@
 
 /************  Webform General  ***********/
 
-form.lalg-memb-wf .lalg-memb-hidden: {
+form.lalg-memb-wf .lalg-memb-hidden {
 	display: none;
 }
 
@@ -17,9 +17,15 @@ form.lalg-memb-wf .lalg-memb-short {
 }
 form.lalg-memb-wf .lalg-memb-medium {
 	width: 300px;
+	max-width: 95%;
 }
 form.lalg-memb-wf .lalg-memb-long {
 	width: 450px;
+	max-width: 95%;
+}
+form.lalg-memb-wf .lalg-memb-vlong {
+	width: 600px;
+	max-width: 95%;
 }
 
 form.lalg-memb-wf input,
@@ -29,19 +35,72 @@ form.lalg-memb-wf select {
 
 /************  Webform Fields  ***********/
 
+
+/* reduce margins */
+form.lalg-memb-wf ul.webform-progress-tracker { margin: 20px auto 0px; }
+form.lalg-memb-wf input.js-form-submit { margin: 10px auto; }
+
+
+form.lalg-memb-wf    fieldset.lalg-grey-background {
+    background-color: #0f0f0f05;
+    margin-top: -30px;
+    padding-left: 20px;
+}
+
+
+form.lalg-memb-wf  fieldset.lalg-grey-background >  legend {
+    padding-top: 50px;
+}
+
+/* Give fixed space to the labels, otherwise the input boxes won't be alligned, plus other styling */
+form.lalg-memb-wf    label  {
+	width: 180px;
+	/* font-size: 1.1em; */
+	font-family: verdana;
+}
+
+/* Buttons */
+form.lalg-memb-wf    input[type="submit"] {
+	background-color: #89dd89;
+	background-image: none;
+	/* margin-top: 25px; */
+	/* margin-bottom: 20px; */
+	font-size: 1.5em;
+	padding: 10px 30px;
+
+}
+form.lalg-memb-wf  input[type="submit"].webform-button--previous {
+	background-color: #cdf3ce;
+	margin-right: 20px;
+}
+
+
+/* page 2 collapsed links */
+form.lalg-memb-wf details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 1.5em .5em 1em 20px;
+    background-color: #0f0f0f05;
+    margin-bottom: 15px;
+}
+
+form.lalg-memb-wf summary {
+   font-size: 21px;
+   padding-bottom: .5em;
+   display: list-item;
+}
+
+ 
+
+
+
+/* - commented out so that membership number is inline, and box is grey background
 form.lalg-memb-wf input.lalg-memb-id {
 	display: block;
 	background-color: #ffffff;
 }
+*/
 
 
-/***********  Views  ***********/
-
-/* Find Contacts Page */
-div.lalg-view-findcontacts .form-item {float: left; padding-right: 40px;}
-div.lalg-view-findcontacts label {display: block;}
-div.lalg-view-findcontacts #edit-actions {clear:both;}
-div.lalg-view-findcontacts th  {text-align: left;}
-div.lalg-view-findcontacts th a {color: white;}
-div.lalg-view-findcontacts th.views-field {color: white; padding-left: 10px; font-family: verdana;}
+/* Removed lalg-view-findcontacts styling as now in lalg-global and applies to all tables (TJS 27/07/21) */
 

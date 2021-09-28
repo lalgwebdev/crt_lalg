@@ -4,4 +4,5 @@ global-styling:
       css/lalg-global.css: { weight: 10 }
       css/lalg-groups.css: { weight: 11 }
       css/lalg-membership.css: { weight: 12 }
+      css/temp.css: { weight: 20 }
      
