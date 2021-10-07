@@ -91,6 +91,27 @@ form.lalg-memb-wf summary {
 }
 
  
+/* Payment Page adjustments */
+form.lalg-memb-wf div.lalg-memb-card-prompt img {
+	height: 40px;
+}
+
+form.lalg-memb-wf div.lalg-memb-wait-prompt img {
+	height: 60px;
+}
+
+form.lalg-memb-wf div.lalg-memb-card-prompt p,
+form.lalg-memb-wf div.lalg-memb-wait-prompt p{
+	font-size: 1.0em;
+}
+
+form#webform-submission-administer-contact-details-add-form.lalg-memb-wf {
+	display: grid;
+}
+
+form.lalg-memb-wf div#edit-contribution-pagebreak--2 {
+	grid-row: 5;
+}
 
 
 
