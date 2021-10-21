@@ -26,7 +26,8 @@ regions:
   footer_menu: 'Footer Menu'
   auto_hidden_block: 'Auto hidden blocks'
 # Information added by MJH on 2021-05-19
-version: '1.2'
+version: '1.2.1'
 core: '8.x'
+core_version_requirement: ^8 || ^9
 project: 'crt_lalg'
 datestamp: 1621432195
