@@ -39,10 +39,10 @@ div.lalg-fullcalendar div.fc-right > button  {display: none;}
 
 /* Group links page */
 @media (min-width: 900px) {
-   div.lalg-group-links {column-count: 3;}
+   div.lalg-view-group-list {column-count: 3;}
 }
 @media (min-width: 1250px) {
-   div.lalg-group-links {column-count: 4;}
+   div.lalg-view-group-list {column-count: 4;}
 }
 
 /* Keywords */
