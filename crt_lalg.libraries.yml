@@ -5,4 +5,9 @@ global-styling:
       css/lalg-groups.css: { weight: 11 }
       css/lalg-membership.css: { weight: 12 }
       css/temp.css: { weight: 20 }
-     
+
+lalg-articles-jump:
+  js:
+    js/lalg-select-jump.js: {}
+  dependencies:
+  - core/jquery
