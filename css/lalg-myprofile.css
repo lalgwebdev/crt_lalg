@@ -1,0 +1,13 @@
+.block-views-blocklanding-page-personalised-content-block-2 .views-row {
+  border-bottom: 1px dotted grey;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.block-views-blocklanding-page-personalised-content-block-2 .views-row:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
