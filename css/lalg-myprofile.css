@@ -1,3 +1,16 @@
+.block-views-blocklanding-page-civicrm-contact-block-3,
+.block-views-blocklanding-page-civicrm-contact-block-1, 
+.block-views-blocklanding-page-civicrm-contact-block-2 {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 350px;
+}
+
+.block-views-blocklanding-page-civicrm-contact-block-3,
+.block-views-blocklanding-page-civicrm-contact-block-1 {
+  padding-right: 30px;
+}
+
 .block-views-blocklanding-page-personalised-content-block-2 .views-row {
   border-bottom: 1px dotted grey;
   margin-bottom: 15px;
