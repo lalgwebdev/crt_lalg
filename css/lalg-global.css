@@ -9,9 +9,9 @@
 
 /************* General sitewide changes. **************/
 
-h1, h2, p, a {font-family: verdana;}
+body, h1, h2, p, a {font-family: verdana;}
 h2 {font-size: 2.2em;}
-p, time {font-size: 1.3em; line-height: 135%;}
+span, p, time {font-size: 1.3em; line-height: 135%;}
 .region-sidebar-first .views-row a {font-size: 1.3em; }
 img {object-fit: cover;}
 
@@ -60,8 +60,6 @@ form .form-required::after {
 @media (min-width: 1910px) {
 .container {width: 1820px;}
 }
-
-
 
 .block {
   margin-bottom: 2px;
@@ -142,7 +140,6 @@ ul.sf-menu.sf-style-blue {
   background-position: center;
 }
 
-
 /* Editors Notes View */
 .editorsnotes {
   display: inline-block;
@@ -160,7 +157,6 @@ ul.sf-menu.sf-style-blue {
   font-weight: bold;
   line-height: 80%;
 }
-
 
 /* Menu starts here */
 
@@ -198,8 +194,6 @@ div.sf-accordion-toggle.sf-style-blue a  {
 
 }
 div.sf-accordion-toggle.sf-style-blue > a:after {display: none;}
-
-
 
 /* Slideshow starts here */
 @media (min-width: 1920px) { /* Actual image width is 1920px so nothing is gained from going higher. */
@@ -240,15 +234,9 @@ div.sf-accordion-toggle.sf-style-blue > a:after {display: none;}
 /* bring main content up to top */
 .content_layout > .col-md-6 {margin-top: -20px;}
 
-
-
 /* Front page content */
 /* Fix width overlapping right sidebar */
 article.node--type-article,
 article.node--type-event {
   width: auto;
 }
-
-
-
-
