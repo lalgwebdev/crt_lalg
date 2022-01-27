@@ -11,6 +11,10 @@
   padding-right: 30px;
 }
 
+.block-views-blocklanding-page-civicrm-contact-block-1 time {
+  font-size: 1em;
+}
+
 .block-views-blocklanding-page-personalised-content-block-2 .views-row {
   border-bottom: 1px dotted grey;
   margin-bottom: 15px;
