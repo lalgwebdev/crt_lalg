@@ -67,42 +67,10 @@ li.lalg-tags-li {
    border-radius: 3px;
 }
 
-/* Group Display Article Links */
-div.block-views-blockgroup-display-block-1 div.views-field-title a {
-  font-size: 1.6em;
-}
-
-div.lalg-tags {
-  padding-top: 20px;
-}
-
-/* Group Events Block */
-.lalg-view-group-events ul.js-pager__items {
-  list-style: none;
-}
-
-.lalg-view-group-events ul.js-pager__items li {
-   float: left;
-   margin: 3px;
-}
-
-/* Keywords */
-.lalg-tags-title {text-decoration: underline;}
-li.lalg-tags-li {
-   border: 1px dotted #dadada;
-   display: inline-block;
-   padding: 1px 10px;
-}
-
-/* Group Display Block Heading */
-.content_layout div.block h2,
-.sidebar div.block h2 {
-   color: white;
-   background-color: #0a8ebd;
-   padding: 6px;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   border-radius: 3px;
+/* Group Icon */
+.lalg-group-icon img {
+  float: left;
+  margin-right: 10px;
 }
 
 /* Group Display Article Links */
