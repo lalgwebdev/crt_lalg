@@ -28,6 +28,10 @@ div.lalg-fullcalendar div.fc-right > button  {display: none;}
    div.lalg-fullcalendar div.fc-center   {padding-right: 126px;}
 }
 
+/* Group Search */
+.lalg-view-group-search .views-row {
+  margin-bottom: 15px;
+}
 
 /* A to Z specfic content */
 .az-row-group .views-field-view-node a.atoz-link::before {
