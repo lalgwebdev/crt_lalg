@@ -237,6 +237,7 @@ div.sf-accordion-toggle.sf-style-blue > a:after {display: none;}
 /* Front page content */
 /* Fix width overlapping right sidebar */
 article.node--type-article,
-article.node--type-event {
+article.node--type-event,
+article.node--type-static {
   width: auto;
 }
