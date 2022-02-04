@@ -3,7 +3,7 @@
 @media (max-width: 600px) {
    .lalg-block-fullcalendarlegend li {min-width: fit-content;}
 }
-
+th.fc-day-header>span {color: black;}
 .fc-widget-header {background-color: transparent;}
 .fc-day-top {text-align: center;}
 .fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number {float: none;}
@@ -14,10 +14,10 @@ td.fc-day-top {padding: 0.5em;}
 .fc-event:hover {color: #820824;  }
 /* Remove dark grey areas */
 .fc-content-skeleton tr:nth-child(even) {background-color: transparent;}
-.fc-content-skeleton {font-size: 1.4em;}
+.fc-content-skeleton {font-size: 1.0em;}
 .fc-content-skeleton > table > thead > tr {background-color: #2c3e50;}
 .fc-day-number {color: white;}
-.fc-row {margin-top: 2em; }
+.fc-row {margin-top: .7em; margin-bottom: .7em;}
 td.fc-event-container {padding-bottom: 0.2em; padding-top: 0.2em;}
 .fc-day-grid-event .fc-time {font-weight: 400;}
 a.fc-day-grid-event  {font-weight: 400;}
@@ -44,6 +44,70 @@ div.lalg-fullcalendar div.fc-right > button  {display: none;}
 /* Group links page */
 @media (min-width: 900px) {
    div.lalg-view-group-list {column-count: 3;}
+}
+@media (min-width: 1250px) {
+   div.lalg-view-group-list {column-count: 4;}
+}
+
+/* Keywords */
+.lalg-tags-title {text-decoration: underline;}
+li.lalg-tags-li {
+   border: 1px dotted #dadada;
+   display: inline-block;
+   padding: 1px 10px;
+}
+
+/* Group Display Block */
+.content_layout div.block-group,
+.block-views-blockgroup-display-lalg-article-jump,
+.block-views-blockgroup-display-block-1,
+.block-views-blockcontact-details-block-1 h2,
+.block-views-blockgroup-display-block-2,
+.block-views-blockgroup-membership-block-1,
+.block-views-blockadd-content-block-1 {
+  clear:both;
+}
+
+/* Group Display Block Heading */
+.content_layout div.block-group h2,
+.block-views-blockgroup-display-lalg-article-jump h2,
+.block-views-blockgroup-display-block-1 h2,
+.block-views-blockcontact-details-block-1 h2,
+.block-views-blockgroup-display-block-2 h2,
+.block-views-blockgroup-membership-block-1 h2,
+.block-views-blockadd-content-block-1 h2 {
+   color: white;
+   background-color: #0a8ebd;
+   padding: 6px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border-radius: 3px;
+}
+
+/* Group Icon */
+.lalg-group-icon img {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Group Display Article Links */
+div.block-views-blockgroup-display-block-1 div.views-field-title a {
+  font-size: 1.6em;
+}
+
+div.lalg-tags {
+  padding-top: 20px;
+}
+
+/* Group Events Block */
+.lalg-view-group-events ul.js-pager__items {
+  list-style: none;
+}
+
+.lalg-view-group-events ul.js-pager__items li {
+   float: left;
+   margin: 3px;
+}
 }
 @media (min-width: 1250px) {
    div.lalg-view-group-list {column-count: 4;}
