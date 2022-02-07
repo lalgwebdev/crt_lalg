@@ -1,4 +1,15 @@
 /* Drupal 7 CKEditor css */
+img.float-left {
+	float: left;
+}
+img.float-right {
+	float: right;
+}
+img.float-centre {
+  	margin: auto;
+  	display: block;
+}
+
 img.h32 {
 	height: 32px;
 }
