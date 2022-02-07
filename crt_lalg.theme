@@ -1,0 +1,38 @@
+<?php
+use Drupal\Core\Form\FormStateInterface;
+
+function crt_lalg_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if($form_id != 'group_content_group-group_membership_group-join_form'
+  && $form_id != 'group_content_group-group_membership_group-leave_form') {
+    return;
+  }
+  if(preg_match('{^/group/(\d+)/\w+}', \Drupal::request()->getRequestUri(), $matches)){
+    $groups[] = \Drupal::entityTypeManager()->getStorage('group')->load($matches[1]);
+  }
+
+  if($form_id == 'group_content_group-group_membership_group-join_form') {
+    $form['#title'] = 'Subscribe to group ' . $groups[0]->label();
+    $form['actions']['submit']['#value'] = t('Subscribe to group');
+  } else {
+    $form['#title'] = 'Unsubscribe from group ' . $groups[0]->label();
+    $form['actions']['submit']['#value'] = t('Unsubscribe from group');
+  }
+  $form['actions']['submit']['#submit'][] = '_crt_lalg_goto';
+}
+
+function _crt_lalg_goto(&$form, FormStateInterface $form_state) {
+  if(preg_match('{^/group/(\d+)/\w+}', \Drupal::request()->getRequestUri(), $matches)){
+    $url = \Drupal\Core\Url::fromUri('internal:/group/' . $matches[1]);
+  } else {
+    $url = \Drupal\Core\Url::fromUri('internal:/myprofile');
+  }
+
+  // Check if a destination was set, probably on an exception controller.
+  // @see \Drupal\user\Form\UserLoginForm::submitForm()
+  $request = \Drupal::service('request_stack')->getCurrentRequest();
+  if (!$request->request->has('destination')) {
+    $form_state->setRedirectUrl($url);
+  } else {
+    $request->query->set('destination', $request->request->get('destination'));
+  }
+}
