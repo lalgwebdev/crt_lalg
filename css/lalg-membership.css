@@ -1,5 +1,26 @@
 /***********  Styling for User-facing Membership Pages  ************/
 
+/***********  Administer Contact Details Button styling  **************/
+
+fieldset.lalg-memb-delete-button legend {
+  border-bottom: 0px
+}
+fieldset.lalg-memb-delete-button .webform-custom-options-buttons {
+  justify-content: flex-end;
+}
+fieldset.lalg-memb-delete-button .webform-custom-options-button {
+  max-width: 200px;  
+  color: white;
+  width: 200px;
+  margin-right: 20px;
+}
+span.deleted-notice {
+  color: red;
+  font-size: 1.5em;
+  margin-left: 2em;
+  line-height: 1.5em;
+}
+
 /***********  General, for all affected Pages  **************/
 
 .lalg-memb-wf {
