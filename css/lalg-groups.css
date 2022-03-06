@@ -108,3 +108,8 @@ div.lalg-tags {
    float: left;
    margin: 3px;
 }
+
+/* Articles */
+.lalg-gallery-images .lalg-gallery-image {
+  display: inline;
+}
