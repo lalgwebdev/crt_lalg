@@ -95,6 +95,20 @@ div.block-views-blockgroup-display-block-1 div.views-field-title a {
   font-size: 1.6em;
 }
 
+.lalg-view-group-articles .views-row {
+  border-bottom: 1px dotted grey;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.lalg-view-group-articles .views-row:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
 div.lalg-tags {
   padding-top: 20px;
 }
