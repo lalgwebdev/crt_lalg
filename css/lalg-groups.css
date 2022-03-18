@@ -29,8 +29,41 @@ div.lalg-fullcalendar div.fc-right > button  {display: none;}
 }
 
 /* Group Search */
-.lalg-view-group-search .views-row {
+.lalg-view-group-search .views-exposed-form {
+  display: table;
   margin-bottom: 15px;
+}
+
+.lalg-view-group-search .form-item-group-search label {
+  display: none;
+}
+
+.lalg-view-group-search div.form-item,
+.lalg-view-group-search div.form-actions {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+  padding-right: 0;
+}
+
+.lalg-view-group-search .captcha-admin-links {
+  position: absolute;
+  right: 10px;
+}
+
+.lalg-view-group-search .views-row {
+  border-bottom: 1px dotted grey;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.lalg-view-group-search div.form-actions:after,
+.lalg-view-group-search .views-row:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 /* A to Z specfic content */
