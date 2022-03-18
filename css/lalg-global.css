@@ -55,10 +55,10 @@ form .form-required::after {
 }
 /* otherwise the display is narrow on wide moniters */
 @media (min-width: 1590px) {
-.container {width: 1540px;}
+  .container {width: 1540px;}
 }
 @media (min-width: 1910px) {
-.container {width: 1820px;}
+  .container {width: 1820px;}
 }
 
 .block {
@@ -87,7 +87,28 @@ form .form-required::after {
 /* Menu bar - background colour all way across */
 ul.sf-menu.sf-style-blue {
     width: 100%;
-    background-color: #095cb1;
+}
+
+/* Top Level Menu Color (Light) */
+ul.sf-menu.sf-style-blue,
+ul.sf-menu.sf-style-blue li {
+    background-color: #3270c5;
+}
+
+/* Top Level Menu Color Hover (Dark) */
+ul.sf-menu.sf-style-blue a:hover,
+ul.sf-menu.sf-style-blue li:hover,
+ul.sf-menu.sf-style-blue span.nolink:hover,
+ul.sf-menu.sf-style-blue li.sfHover,
+ul.sf-menu.sf-style-blue a:focus {
+    background-color: #0151a4;
+}
+
+/* Submenu Color Hover (Light) */
+ul.sf-menu.sf-style-blue .sf-depth-2:hover,
+ul.sf-menu.sf-style-blue span.nolink.sf-depth-2:hover,
+ul.sf-menu.sf-style-blue .sf-depth-3:hover {
+    background-color: #3270c5;
 }
 
 /* get rid of blue line below the main menu */
@@ -111,7 +132,7 @@ ul.sf-menu.sf-style-blue {
 
 .site-branding__name a {
   font-size: 4rem;
-  color: #13a6d2;
+  color: #0a8ebd;
 }
 
 @media (max-width: 766px) {
