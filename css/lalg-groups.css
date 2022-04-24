@@ -27,6 +27,8 @@ div.lalg-fullcalendar div.fc-right > button  {display: none;}
 @media (min-width: 767px) {
    div.lalg-fullcalendar div.fc-center   {padding-right: 126px;}
 }
+/* Calendar - Stop the footer taking up so much room especially on a mobile */
+.fc-day-grid-container {height: auto !important;}
 
 /* Group Search */
 .lalg-view-group-search .views-exposed-form {
@@ -112,9 +114,10 @@ div.block-group h2,
    color: white;
    background-color: #0a8ebd;
    padding: 6px;
+   padding-left: 16px;
    margin-top: 20px;
    margin-bottom: 20px;
-   border-radius: 3px;
+   border-radius: 10px;
 }
 
 /* Group Icon */
@@ -125,7 +128,7 @@ div.block-group h2,
 
 /* Group Display Article Links */
 div.block-views-blockgroup-display-block-1 div.views-field-title a {
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 
 .lalg-view-group-articles .views-row {
