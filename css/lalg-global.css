@@ -9,11 +9,41 @@
 
 /************* General sitewide changes. **************/
 
-body, h1, h2, p, a {font-family: verdana;}
+body, h1, h2, p, a, ul, li {font-family: verdana;}
 h2 {font-size: 2.2em;}
 span, p, time {font-size: 1.3em; line-height: 135%;}
 .region-sidebar-first .views-row a {font-size: 1.3em; }
 img {object-fit: cover;}
+
+/* main */
+.block-system-main-block li {
+  font-size: 1.3em;
+}
+
+/* Footer */
+.footerwidget {
+  padding-top: 0px;
+}
+
+.footerwidget .row {
+  background-color: darkslategray;
+  border-radius: 10px;
+}
+
+.region.region-footer-first,
+.region.region-footer-second,
+.region.region-footer-third {
+  margin-top: 10px;
+}
+
+.footerwidget h2,
+.footerwidget a {
+  color: white;
+}
+
+.footerwidget p {
+  color: whitesmoke;
+}
 
 /************** Tables ********************/
 table {
@@ -190,9 +220,23 @@ ul.sf-menu.sf-style-blue .sf-depth-3:hover {
 ul.sf-menu {
   margin-bottom: 0px;
   line-height: inherit;
+  border-radius: 10px;
 }
+
+ul.sf-menu.sf-style-blue {
+  margin-bottom: 0px;
+}
+
 ul.sf-menu a {
   font-size: 16px;
+}
+
+ul.sf-menu span {
+  font-size: medium;
+}
+
+.block-superfishmain ul.sf-menu > :first-child {
+  margin-left: 20px;
 }
 
 /* If the menu item has no link, make it's text the same as if it had a link  */
@@ -216,11 +260,20 @@ div.sf-accordion-toggle.sf-style-blue a  {
 }
 div.sf-accordion-toggle.sf-style-blue > a:after {display: none;}
 
+.main-menuwrap {
+  margin-bottom: 0;
+}
+
 /* Slideshow starts here */
 @media (min-width: 1920px) { /* Actual image width is 1920px so nothing is gained from going higher. */
   .slideshow {
-    width: 1920px;
+    /*width: 1920px;*/
   }
+}
+
+/* slick caption */
+.slide--caption--below .slide__caption {
+  padding: 5px 0;
 }
 
 /* Slideshow and image height */
@@ -248,6 +301,7 @@ div.sf-accordion-toggle.sf-style-blue > a:after {display: none;}
 .sidebar > .col-md-3 {
     background-color: #1da9d31c;
     padding-bottom: 1.2em;
+  border-radius: 10px;
 }
 /* Coming shortly on home page - separate rows a little */
 .region-sidebar-first .views-row {padding-bottom: 1em;}
