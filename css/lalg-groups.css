@@ -159,6 +159,12 @@ div.lalg-tags {
    margin: 3px;
 }
 
+/* Create Content Block */
+.group-content-create-links {
+  list-style: none;
+  line-height: 150%;
+}
+
 /* Articles */
 .lalg-gallery-images .lalg-gallery-image {
   display: inline;
