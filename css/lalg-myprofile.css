@@ -15,6 +15,28 @@
   font-size: 1em;
 }
 
+.lalg-view-landing-page-household header,
+.lalg-view-landing-page-household p,
+.lalg-view-landing-page-household .views-row {
+  display: inline;
+}
+
+.lalg-view-landing-page-household p {
+  margin-bottom: 0;
+}
+
+.lalg-view-landing-page-household .views-row span {
+  font-size: 1.2em;
+}
+
+.lalg-view-landing-page-household .views-row span.field-content::after {
+  content: ", ";
+}
+
+.lalg-view-landing-page-household .views-row-last span.field-content::after {
+  content: "";
+}
+
 .block-views-blocklanding-page-personalised-content-block-2 .views-row {
   border-bottom: 1px dotted grey;
   margin-bottom: 15px;
