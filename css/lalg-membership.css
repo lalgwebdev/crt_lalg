@@ -62,18 +62,26 @@ form.lalg-memb-wf ul.webform-progress-tracker { margin: 20px auto 0px; }
 form.lalg-memb-wf input.js-form-submit { margin: 10px auto; }
 
 
-form.lalg-memb-wf    fieldset.lalg-grey-background {
+form.webform-submission-manage-organisations-form fieldset.lalg-grey-background, 
+form.lalg-memb-wf fieldset.lalg-grey-background {
     background-color: #0f0f0f05;
     margin-top: -30px;
     padding-left: 20px;
 }
 
 
-form.lalg-memb-wf  fieldset.lalg-grey-background >  legend {
+form.webform-submission-manage-organisations-form fieldset.lalg-grey-background > legend, 
+form.lalg-memb-wf fieldset.lalg-grey-background > legend {
     padding-top: 50px;
 }
 
+/* Get rid of horizontal line */
+form.webform-submission-manage-organisations-form legend  {
+   border-bottom: none;
+}
+
 /* Give fixed space to the labels, otherwise the input boxes won't be alligned, plus other styling */
+form.webform-submission-manage-organisations-form label,
 form.lalg-memb-wf    label  {
 	width: 180px;
 	/* font-size: 1.1em; */
@@ -81,6 +89,7 @@ form.lalg-memb-wf    label  {
 }
 
 /* Buttons */
+form.webform-submission-manage-organisations-form input[type="submit"],
 form.lalg-memb-wf    input[type="submit"] {
 	background-color: #89dd89;
 	background-image: none;
@@ -88,8 +97,11 @@ form.lalg-memb-wf    input[type="submit"] {
 	/* margin-bottom: 20px; */
 	font-size: 1.5em;
 	padding: 10px 30px;
-
 }
+form.webform-submission-manage-organisations-form input[type="submit"] {
+  margin-bottom: 50px;
+}
+
 form.lalg-memb-wf  input[type="submit"].webform-button--previous {
 	background-color: #cdf3ce;
 	margin-right: 20px;
@@ -144,4 +156,3 @@ form.lalg-memb-wf input.lalg-memb-id {
 */
 
 /* Removed lalg-view-findcontacts styling as now in lalg-global and applies to all tables (TJS 27/07/21) */
-
