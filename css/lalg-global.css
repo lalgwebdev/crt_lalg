@@ -11,13 +11,17 @@
 
 body, h1, h2, p, a, ul, li {font-family: verdana;}
 h2 {font-size: 2.2em;}
-p, time {font-size: 1.3em; line-height: 135%;}
+p, a, time {font-size: 1.3em; line-height: 135%;}
+p a { font-size: 100%; line-height: 100% }
 .region-sidebar-first .views-row a {font-size: 1.3em; }
 img {object-fit: cover;}
 
 /* main */
 .block-system-main-block li {
   font-size: 1.3em;
+}
+.block-system-main-block li li {
+  font-size: 100%;
 }
 
 /* Footer */
