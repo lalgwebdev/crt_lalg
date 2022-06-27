@@ -145,6 +145,12 @@ ul.sf-menu.sf-style-blue .sf-depth-3:hover {
     background-color: #3270c5;
 }
 
+/* Fix menu wrapping issue. */
+ul.sf-menu li {
+  display: inline flow-root list-item;
+  float: none;
+}
+
 /* get rid of blue line below the main menu */
 .navbar-default {border-bottom: none;}
 
