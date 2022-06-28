@@ -169,3 +169,18 @@ div.lalg-tags {
 .lalg-gallery-images .lalg-gallery-image {
   display: inline;
 }
+
+/* Group Member Tab */
+.groups-group-members tbody .views-field-dropbutton,
+.groups-group-members tbody .views-field-dropbutton div {
+  background-color: inherit;
+}
+
+.views-field-group-roles ul {
+  list-style-type: none;
+}
+
+.block-local-actions-block {
+  margin-top: 10px;
+  list-style-type: none;
+}
