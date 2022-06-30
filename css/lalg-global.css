@@ -12,7 +12,8 @@
 body, h1, h2, p, a, ul, li {font-family: verdana;}
 h2 {font-size: 2.2em;}
 p, a, time {font-size: 1.3em; line-height: 135%;}
-p a { font-size: 100%; line-height: 100% }
+p a { font-size: 100%; line-height: 100%; color: #0a8ebd }
+
 .region-sidebar-first .views-row a {font-size: 1.3em; }
 img {object-fit: cover;}
 
@@ -22,6 +23,10 @@ img {object-fit: cover;}
 }
 .block-system-main-block li li {
   font-size: 100%;
+}
+.block-system-main-block li a {
+  font-size: 100%;
+  color: #0a8ebd;
 }
 
 /* Footer */
@@ -147,7 +152,7 @@ ul.sf-menu.sf-style-blue .sf-depth-3:hover {
 
 /* Fix menu wrapping issue. */
 ul.sf-menu li {
-  display: inline flow-root list-item;
+  display: inline-block;
   float: none;
 }
 
