@@ -187,3 +187,9 @@ div.lalg-tags {
   margin-top: 10px;
   list-style-type: none;
 }
+
+
+/* Random image */
+div.lalg-random-image img {
+  max-height: 200px;
+}
