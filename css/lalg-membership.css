@@ -116,7 +116,7 @@ form.lalg-memb-wf fieldset#edit-civicrm-2-contact-1-cg8-fieldset a {
 form.lalg-memb-wf details {
     border: 1px solid #aaa;
     border-radius: 4px;
-    padding: 1.5em .5em 1em 20px;
+    padding: 0 .5em 0 20px;
     background-color: #0f0f0f05;
     margin-bottom: 15px;
 }
@@ -142,15 +142,20 @@ form.lalg-memb-wf div.lalg-memb-wait-prompt p{
 	font-size: 1.0em;
 }
 
-form#webform-submission-administer-contact-details-add-form.lalg-memb-wf {
+/* Reorder fields on the Payment page. */
+form#webform-submission-administer-contact-details-add-form.lalg-memb-wf,
+form#webform-submission-user-contact-details-add-form.lalg-memb-wf {
 	display: grid;
+	
 }
 
 form.lalg-memb-wf div#edit-contribution-pagebreak--2 {
-	grid-row: 5;
+	grid-row: 4;
 }
 
-
+form.lalg-memb-wf div#edit-contribution-pagebreak--2 ~ div#edit-actions {
+	grid-row: 7;
+}
 
 /* - commented out so that membership number is inline, and box is grey background
 form.lalg-memb-wf input.lalg-memb-id {
