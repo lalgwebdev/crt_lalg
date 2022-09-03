@@ -193,3 +193,20 @@ div.lalg-tags {
 div.lalg-random-image img {
   max-height: 200px;
 }
+
+/* Event page */
+div.event-contact-title-and-text>div:not(.event-contact-text)  {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}  
+article.node--type-event {
+  padding-left: 0px;
+}  
+body.page-node-type-event div.lalg-view-event-date div.field-content {
+  margin-bottom: 20px;
+}  
+body.page-node-type-event div.block-page-title-block h1 {
+    font-size: 24px;
+    font-weight: bold;
+}  

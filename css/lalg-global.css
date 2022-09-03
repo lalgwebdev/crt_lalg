@@ -359,3 +359,21 @@ div.lalg-curated-photos-contact-sheet img {
     width: 18%;
   }
 }
+
+/* Retailers */
+div.lalg-retailers td.views-field-lalg-member-benefits-24 {
+    font-size: 1.3em; 
+}  
+div.lalg-retailers td.views-field-nothing {
+    font-size: 1.3em; 
+}  
+/* Linked organisations */
+div.lalg-linked-organisations td.views-field-description-25 {
+    font-size: 1.3em; 
+}  
+div.lalg-linked-organisations td.views-field-lalg-member-benefits-24 {
+    font-size: 1.3em; 
+}  
+div.lalg-linked-organisations td.views-field-nothing {
+    font-size: 1.3em; 
+}  
