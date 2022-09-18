@@ -7,6 +7,13 @@ global-styling:
       css/lalg-myprofile.css: { weight: 13 }
       css/lalg-legacy.css: { weight: 19 }
       css/temp.css: { weight: 20 }
+      
+global-scripts:
+  js: 
+    js/lalg-environment.js: {}  
+  dependencies:
+    - core/jquery
+    
 
 lalg-articles-jump:
   js:

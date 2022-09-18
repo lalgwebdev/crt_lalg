@@ -5,6 +5,7 @@ description: 'LALG Theme.<br/>Based on Zymphonies Creative Responsive Theme: Dev
 package: Core
 libraries:
   - crt_lalg/global-styling
+  - crt_lalg/global-scripts
 regions:
   header: 'Header'
   primary_menu: 'Primary Menu'
