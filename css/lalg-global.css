@@ -31,6 +31,7 @@ img {object-fit: cover;}
 
 /* Footer */
 .footerwidget {
+  margin-top: 10px;  /* CMW 28/09/2022 */
   padding-top: 0px;
 }
 
