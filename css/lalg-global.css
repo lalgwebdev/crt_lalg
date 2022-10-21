@@ -384,6 +384,10 @@ body.d9dev1 header.main-header {
   background-image: none !important;
   background-color: rgba(167,141,17,.36) !important;
 }
+body.d9dev2 header:first-of-type {
+  background-image: none !important;
+  background-color: rgba(167,17,141,.36) !important;
+}
 body.d9test header.main-header {
   background-image: none !important;
   background-color: rgba(17,101,167,.36) !important;
