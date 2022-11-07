@@ -397,4 +397,11 @@ body.d9ref header.main-header {
   background-color: rgba(17,167,19,.5) !important;
 }
   
-  
+#views-form-frontpage-page-2 td {
+	padding-top: 8px;
+}	
+#views-form-frontpage-page-2 a.tabledrag-handle div.handle {
+	width: 100%;
+	height: 100%;
+	margin-top: -4px;
+}
