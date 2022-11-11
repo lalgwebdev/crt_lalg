@@ -417,3 +417,9 @@ body.d9ref header.main-header {
 	height: 100%;
 	margin-top: -4px;
 }
+
+/* Sort New Ideas */
+a.tabledrag-handle .handle {
+  width: 25px;
+  height: 25px;
+}
