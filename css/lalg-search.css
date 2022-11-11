@@ -1,0 +1,46 @@
+/* Search Form and Results */
+
+/* Style the Advanced Search button */
+#search-form #edit-advanced summary {
+	font-size: 1.3em;
+    line-height: 135%;
+	font-family: verdana;
+	color: #006694;
+	text-decoration: none;
+	background-color: transparent;
+	box-sizing: border-box;	
+}
+
+/* Hide Languages */
+#search-form #edit-lang-fieldset {
+	display: none;
+}
+
+/* Put option fields inline */
+#search-form #edit-keywords-fieldset div.form-item {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#search-form #edit-keywords-fieldset div.form-item label {
+	margin-right: 10px;
+}
+
+#search-form #edit-types-fieldset div.form-item {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#search-form #edit-types-fieldset div.form-item label {
+	width: 100px;
+}
+
+/* Hide unwanted element Types */
+#search-form #edit-types-fieldset div.form-item-type-forum,
+#search-form #edit-types-fieldset div.form-item-type-page,
+#search-form #edit-types-fieldset div.form-item-type-panel,
+#search-form #edit-types-fieldset div.form-item-type-static,
+#search-form #edit-types-fieldset div.form-item-type-webform {
+	display: none;
+}
+

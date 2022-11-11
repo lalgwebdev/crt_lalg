@@ -5,6 +5,7 @@ global-styling:
       css/lalg-groups.css: { weight: 11 }
       css/lalg-membership.css: { weight: 12 }
       css/lalg-myprofile.css: { weight: 13 }
+      css/lalg-search.css: { weight: 14 }
       css/lalg-legacy.css: { weight: 19 }
       css/temp.css: { weight: 20 }
       
