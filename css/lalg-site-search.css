@@ -1,0 +1,42 @@
+/******************************************************
+ ***  Style the Site Search, based on Search API  *****
+ *****************************************************/
+ 
+/*****  Site Search View Results   *******/
+
+/* Separate rows */
+div.lalg-view-site-search div.views-row {
+  border-bottom: 1px dotted grey;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+ 
+/* Emphasise Titles */
+div.lalg-view-site-search div.views-field-title, 
+div.lalg-view-site-search div.views-field-title-2, 
+div.lalg-view-site-search div.views-field-label  {
+	font-size: 1.3em;
+}  
+
+/* Float Group Icon */
+div.lalg-view-site-search div.views-field-field-group-icon  {
+	float: left;
+	margin-right: 10px;
+}
+div.lalg-view-site-search div.views-field-id  {
+	clear: both;
+}
+  
+/* Style Events */
+div.lalg-view-site-search div.views-field-date  { 
+	font-weight: bold;
+	font-size: 0.9em;
+	margin: 10px 0 10px 0;
+}
+div.lalg-view-site-search div.views-field-description span  { 
+	font-size: 1.3em;
+}
+div.lalg-view-site-search div.views-field-description  { 
+	margin-bottom: 20px;
+}
+
