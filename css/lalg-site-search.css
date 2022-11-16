@@ -40,3 +40,27 @@ div.lalg-view-site-search div.views-field-description  {
 	margin-bottom: 20px;
 }
 
+/******  Style Search Block   *****/
+#block-exposedformsite-searchpage {
+  width: 30%;
+  float: right;
+}
+#block-exposedformsite-searchpage input {
+  padding: 1px;
+  font-size: 16px;
+  font-weight: normal;
+}
+#block-exposedformsite-searchpage #views-exposed-form-site-search-page div {
+	display: inline-block;
+}
+#block-exposedformsite-searchpage #edit-actions--2 {
+  width: 25px;
+}
+#block-exposedformsite-searchpage #edit-actions--2 input {
+  background-image: url(../images/ico-search.png);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-color: white;
+  color: transparent;
+  background-position: center;
+}
