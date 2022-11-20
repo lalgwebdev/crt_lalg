@@ -11,8 +11,7 @@ global-styling:
       
 global-scripts:
   js: 
-    js/lalg-environment.js: {}  
-    js/lalg-primary-tabs.js: {} 
+    js/lalg-environment.js: {}   
   dependencies:
     - core/jquery
     
