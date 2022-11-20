@@ -41,26 +41,38 @@ div.lalg-view-site-search div.views-field-description  {
 }
 
 /******  Style Search Block   *****/
-#block-exposedformsite-searchpage {
-  width: 30%;
+
+div.region-header div.block-views-exposed-filter-blocksite-search-page {
   float: right;
 }
-#block-exposedformsite-searchpage input {
-  padding: 1px;
+div.block-views-exposed-filter-blocksite-search-page input {
+  padding: 5px; 
   font-size: 16px;
   font-weight: normal;
 }
-#block-exposedformsite-searchpage #views-exposed-form-site-search-page div {
+div.block-views-exposed-filter-blocksite-search-page form div {
 	display: inline-block;
 }
-#block-exposedformsite-searchpage #edit-actions--2 {
+
+/* adjust for mobile displays */
+@media (max-width: 480px) {
+	div.region-header div.block-views-exposed-filter-blocksite-search-page form {
+		padding-left: 15px;
+	}	
+	div.block-views-exposed-filter-blocksite-search-page div.js-form-type-textfield {  
+	  max-width: 70%;
+	}
+	div.block-views-exposed-filter-blocksite-search-page div.js-form-type-textfield input { 
+	  max-width: 100%;
+	}	
+}	
+div.block-views-exposed-filter-blocksite-search-page div.form-actions {  
   width: 25px;
 }
-#block-exposedformsite-searchpage #edit-actions--2 input {
-  background-image: url(../images/ico-search.png);
+div.block-views-exposed-filter-blocksite-search-page div.form-actions input {  
+  background-image: url(../images/ico-search.png);  
   background-repeat: no-repeat;
-  background-size: 18px;
-  background-color: white;
+  background-color: white;	  
   color: transparent;
   background-position: center;
 }
