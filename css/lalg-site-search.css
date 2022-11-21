@@ -1,0 +1,78 @@
+/******************************************************
+ ***  Style the Site Search, based on Search API  *****
+ *****************************************************/
+ 
+/*****  Site Search View Results   *******/
+
+/* Separate rows */
+div.lalg-view-site-search div.views-row {
+  border-bottom: 1px dotted grey;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+ 
+/* Emphasise Titles */
+div.lalg-view-site-search div.views-field-title, 
+div.lalg-view-site-search div.views-field-title-2, 
+div.lalg-view-site-search div.views-field-label  {
+	font-size: 1.3em;
+}  
+
+/* Float Group Icon */
+div.lalg-view-site-search div.views-field-field-group-icon  {
+	float: left;
+	margin-right: 10px;
+}
+div.lalg-view-site-search div.views-field-id  {
+	clear: both;
+}
+  
+/* Style Events */
+div.lalg-view-site-search div.views-field-date  { 
+	font-weight: bold;
+	font-size: 0.9em;
+	margin: 10px 0 10px 0;
+}
+div.lalg-view-site-search div.views-field-description span  { 
+	font-size: 1.3em;
+}
+div.lalg-view-site-search div.views-field-description  { 
+	margin-bottom: 20px;
+}
+
+/******  Style Search Block   *****/
+
+div.region-header div.block-views-exposed-filter-blocksite-search-page {
+  float: right;
+}
+div.block-views-exposed-filter-blocksite-search-page input {
+  padding: 5px; 
+  font-size: 16px;
+  font-weight: normal;
+}
+div.block-views-exposed-filter-blocksite-search-page form div {
+	display: inline-block;
+}
+
+/* adjust for mobile displays */
+@media (max-width: 480px) {
+	div.region-header div.block-views-exposed-filter-blocksite-search-page form {
+		padding-left: 15px;
+	}	
+	div.block-views-exposed-filter-blocksite-search-page div.js-form-type-textfield {  
+	  max-width: 70%;
+	}
+	div.block-views-exposed-filter-blocksite-search-page div.js-form-type-textfield input { 
+	  max-width: 100%;
+	}	
+}	
+div.block-views-exposed-filter-blocksite-search-page div.form-actions {  
+  width: 25px;
+}
+div.block-views-exposed-filter-blocksite-search-page div.form-actions input {  
+  background-image: url(../images/ico-search.png);  
+  background-repeat: no-repeat;
+  background-color: white;	  
+  color: transparent;
+  background-position: center;
+}
