@@ -173,6 +173,7 @@ div.lalg-tags {
   display: inline;
 }
 
+.field--type-image,
 .field--type-file {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -181,11 +182,13 @@ div.lalg-tags {
   background-color: #fcfcfa;
 }
 
+.field--type-image summary,
 .field--type-file summary {
   display: list-item;
   padding: 0.95em 1.45em;
 }
 
+.field--type-image .js-form-type-managed-file,
 .field--type-file .js-form-type-managed-file {
   padding: 0 1.5em 1em 1.5em;
 }
