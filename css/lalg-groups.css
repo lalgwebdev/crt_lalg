@@ -153,6 +153,10 @@ div.lalg-tags {
 }
 
 /* Group Events Block */
+div.lalg-view-group-events {
+  margin-bottom: 6px;
+}
+
 .lalg-view-group-events ul.js-pager__items {
   list-style: none;
 }
@@ -166,6 +170,13 @@ div.lalg-tags {
 .group-content-create-links {
   list-style: none;
   line-height: 150%;
+}
+
+/* Contact details */
+@media (max-width: 766px) {
+  div.block-views-blockevent-contact-details-block-1 {
+    padding-top: 1px;
+  }
 }
 
 /* Articles */
