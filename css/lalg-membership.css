@@ -43,9 +43,11 @@ form.lalg-memb-wf .lalg-memb-medium {
 form.lalg-memb-wf .lalg-memb-long {
 	width: 450px;
 	max-width: 95%;
-      @media (max-width: 500px) {
-        width: 95%;}
-      }
+}
+@media (max-width: 500px) {
+	form.lalg-memb-wf .lalg-memb-long {
+        width: 95%;
+	}	
 }
 form.lalg-memb-wf .lalg-memb-vlong {
 	width: 600px;
