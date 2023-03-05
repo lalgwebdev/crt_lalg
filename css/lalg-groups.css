@@ -183,6 +183,9 @@ div.lalg-view-group-events {
 .lalg-gallery-images .lalg-gallery-image {
   display: inline;
 }
+.lalg-gallery-images .lalg-gallery-image a img {
+  margin-bottom: 12px;
+}
 
 .field--type-image,
 .field--type-file {
