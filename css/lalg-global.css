@@ -58,9 +58,14 @@ img {object-fit: cover;}
 /************** Tables ********************/
 table {
     width: 100%;
-	display: block;
-	overflow-x:	auto;
 }
+@media (max-width: 766px) {
+	table {
+		display: block;
+		overflow-x:	auto;
+	}
+}
+
 td, th {
     border: 1px solid black;
     padding: 4px 8px;
@@ -77,6 +82,7 @@ th {
     text-align: left;
     color: white; 
     padding-left: 10px; 
+	padding-right: 10px; 
     font-family: verdana;
 }
 th a {color: white;}
@@ -374,7 +380,7 @@ div.lalg-curated-photos-contact-sheet img {
 
 /* Discounts */
 @media (max-width: 766px) {
-  td.views-field.views-field-nothing {
+  div.lalg-retailers td.views-field.views-field-nothing {
     display: inline-block;
   }
   div.lalg-retailers thead {
@@ -500,14 +506,14 @@ a.tabledrag-handle .handle {
 /* Allow top spacing on mobiles */
 @media (max-width: 766px) {
 	h2 { display: inline-block; }
-}	
+}
 
 /* Fix menu on mobiles */
 @media (max-width: 766px) {
 	.block-superfishmain ul.sf-menu > :first-child {
 		margin-left: 0px;
 	}
-}	
+}
 
 /* Make videos responsive */
 div[data-oembed-url^="https://youtu.be"] {
