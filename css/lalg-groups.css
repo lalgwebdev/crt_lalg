@@ -244,3 +244,14 @@ body.page-node-type-event div.block-page-title-block h1 {
     font-size: 24px;
     font-weight: bold;
 }  
+
+/* Editors Notes */
+div.block-views-block-editor-s-notes-block-1 {
+	clear: both;
+    background-color: #ffff0096;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+div.block-views-block-editor-s-notes-block-1 > h2 {
+	padding-top: 6px;
+}
