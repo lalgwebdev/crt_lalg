@@ -16,7 +16,7 @@ fieldset.lalg-memb-delete-button .webform-custom-options-button {
 }
 span.deleted-notice {
   color: red;
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-left: 2em;
   line-height: 1.5em;
 }
@@ -155,7 +155,7 @@ form#webform-submission-user-contact-details-add-form.lalg-memb-wf {
 }
 
 form.lalg-memb-wf div#edit-contribution-pagebreak--2 {
-	grid-row: 4;
+	grid-row: 6;
 }
 
 form.lalg-memb-wf div#edit-contribution-pagebreak--2 ~ div#edit-actions {
