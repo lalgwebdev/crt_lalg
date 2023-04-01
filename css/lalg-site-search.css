@@ -57,6 +57,11 @@ div.block-views-exposed-filter-blocksite-search-page form div {
 	display: inline-block;
 }
 
+/*** Search Block Login Fix ***/
+div.block-views-exposed-filter-blocksite-search-page .form-item {
+  overflow: inherit;
+}
+
 /* adjust for mobile displays */
 @media (max-width: 480px) {
 	div.region-header div.block-views-exposed-filter-blocksite-search-page form {
