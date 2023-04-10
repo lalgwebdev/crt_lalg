@@ -175,3 +175,12 @@ form.lalg-memb-wf input.lalg-memb-id {
 article.node--type-static table {
   margin-bottom: 50px;
 }  
+
+/* Find contacts form */
+div.lalg-view-findcontacts form.views-exposed-form input {
+    width: 140px;
+}
+
+div.lalg-view-findcontacts table a {
+	font-size: 1em;
+}

@@ -50,3 +50,10 @@
   clear: both;
   visibility: hidden;
 }
+.lalg-view-landing-page-user span.views-field-display-name,
+.lalg-view-landing-page-user div.views-field-name,
+.lalg-view-landing-page-user div.views-field-mail,
+.lalg-view-landing-page-user div.views-field-roles-target-id {
+	font-size: 1.3em;
+	line-height: 135%;
+}
