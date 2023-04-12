@@ -57,3 +57,11 @@
 	font-size: 1.3em;
 	line-height: 135%;
 }
+
+.lalg-view-landing-page-membership div.views-field-id, 
+.lalg-view-landing-page-membership div.views-field-membership-type-id,
+.lalg-view-landing-page-membership div.views-field-membership-status-31,
+.lalg-view-landing-page-membership div.views-field-end-date { 
+	font-size: 1.3em;
+	line-height: 135%;
+}
