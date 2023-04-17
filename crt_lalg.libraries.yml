@@ -7,6 +7,7 @@ global-styling:
       css/lalg-myprofile.css: { weight: 13 }
       css/lalg-search.css: { weight: 14 }
       css/lalg-site-search.css: { weight: 15 }
+      css/lalg-webforms.css: { weight: 16 }
       css/lalg-legacy.css: { weight: 19 }
       css/temp.css: { weight: 20 }
       

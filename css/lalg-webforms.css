@@ -1,0 +1,34 @@
+form.webform-submission-can-you-help-lalg--form {
+	font-size: 1.3em;
+	border-radius: 5px;
+    background-color: #f2f2f2;
+	padding: 10px 30px 30px 30px;
+    margin-top: 20px;		
+}
+form.webform-submission-can-you-help-lalg--form h1.js-quickedit-page-title::after {
+    content: "We always need people to help LALG - don’t worry, you wouldn’t be left on your own, and you’d get plenty of help from the team.";
+    display: block;
+    font-size: 16px;
+    margin-top: 15px;
+}
+form.webform-submission-can-you-help-lalg--form div.form-item-is-there-any-other-way-you-d-like-to-help- {
+	padding-top: 40px;
+}
+form.webform-submission-can-you-help-lalg--form div.lalg-webform-markup-contact-details {
+	padding-top: 40px;
+}
+form.webform-submission-can-you-help-lalg--form div.form-item-name label,
+form.webform-submission-can-you-help-lalg--form div.form-item-phone-number- label,
+form.webform-submission-can-you-help-lalg--form div.form-item-email- label {
+	width: 160px;
+}
+form.webform-submission-can-you-help-lalg--form input.webform-button--submit {
+    margin-top: 20px;
+    color: white;
+    width: 100%;
+	max-width: 600px;
+    background-color: #04AA6D !important;
+    background-image: none;
+	padding: 16px 0px;
+    border-radius: 5px;
+}
