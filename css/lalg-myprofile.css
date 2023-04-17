@@ -25,8 +25,8 @@
   margin-bottom: 0;
 }
 
-.lalg-view-landing-page-household .views-row span {
-  font-size: 1.2em;
+.lalg-view-landing-page-household .views-row span.field-content {
+    font-size: 1.3em;
 }
 
 .lalg-view-landing-page-household .views-row span.field-content::after {
@@ -64,4 +64,5 @@
 .lalg-view-landing-page-membership div.views-field-end-date { 
 	font-size: 1.3em;
 	line-height: 135%;
-}
+}	
+	
