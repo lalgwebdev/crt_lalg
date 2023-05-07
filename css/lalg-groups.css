@@ -255,3 +255,79 @@ div.block-views-blockeditor-s-notes-block-1 {
 div.block-views-blockeditor-s-notes-block-1 > h2 {
 	padding-top: 6px;
 }
+
+/* Group edit changes */
+form.group-group-edit-form div.field--name-field-description div[data-drupal-selector="edit-field-description-0-format-help"],
+form.group-group-edit-form div.field--name-field-contact-details div[data-drupal-selector="edit-field-contact-details-0-format-help"] {
+	float: right;
+}
+form.group-group-edit-form div.field--name-field-description div.form-item-field-description-0-value {
+	border: 1px solid grey;
+    border-bottom: 0px;
+    padding: 16px 10px 15px 10px;
+	margin-bottom: 0px
+}	
+form.group-group-edit-form div.field--name-field-description div[data-drupal-selector="edit-field-description-0-format"] {
+    border: 1px solid grey;
+    padding: 0px 10px 0px 20px;
+    margin-bottom: 10px;
+	border-top-color: lightgray;
+}	
+form.group-group-edit-form div.field--name-field-description div[data-drupal-selector="edit-field-description-0-format"] div[data-drupal-selector="edit-field-description-0-format-help"] {
+    padding-top: 20px;
+}
+form.group-group-edit-form div.field--name-field-description div[data-drupal-selector="edit-field-description-0"] {	
+	margin-bottom: 30px;
+}	
+
+form.group-group-edit-form div.field--name-field-contact-details {
+    /* background-color: #f8f8f8; */
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    border: 1px solid grey;
+}	
+form.group-group-edit-form div.field--name-field-contact-details div.form-item-field-contact-details-0-value {
+	padding: 0px 15px 15px 15px;
+    border-bottom: 1px solid lightgrey;
+}	
+form.group-group-edit-form div.field--name-field-contact-details div.form-item-field-contact-details-0-value label {
+	display: block;
+}	
+form.group-group-edit-form div.field--name-field-contact-details div[data-drupal-selector="edit-field-contact-details-0-format"] {
+    padding: 0px 15px;
+}
+
+form.group-group-edit-form div.field--name-field-editor-s-notes div.form-item-field-editor-s-notes-0-value label,	
+form.group-group-edit-form div.field--name-label div.form-item-label-0-value label,	
+form.group-group-edit-form div.field--name-field-group-icon div.form-item-field-group-icon-0 label,	
+form.group-group-edit-form div.field--name-field-group-type div.form-item-field-group-type label,	
+form.group-group-edit-form div.field--name-field-description div.form-item-field-description-0-summary label,	
+form.group-group-edit-form div.field--name-field-description div.form-item-field-description-0-value label,
+form.group-group-edit-form div.field--name-field-contact-details div.form-item-field-contact-details-0-value label,
+form.group-group-edit-form div.field--name-field-downloads summary {
+	font-size: 1.2em;
+}	
+
+form.group-group-edit-form div.field--name-field-editor-s-notes,
+form.group-group-edit-form div.form-item-label-0-value,
+form.group-group-edit-form div.field--name-field-group-icon,
+form.group-group-edit-form div.field--name-field-group-type,
+form.group-group-edit-form div.field--name-field-description {
+	margin-top: 30px;
+}	
+
+/* Group members */
+div.groups-group-members td.views-field-dropbutton div.dropbutton-multiple.open div.dropbutton-widget {
+	background-color: white;
+}	
+div.groups-group-members td.views-field-dropbutton div.dropbutton-multiple div.dropbutton-widget li.view-group-content,
+div.groups-group-members td.views-field-dropbutton div.dropbutton-multiple div.dropbutton-widget li.edit-group-content,
+div.groups-group-members td.views-field-dropbutton div.dropbutton-multiple div.dropbutton-widget li.delete-group-content {
+	padding: 0.3em;
+}
+
+/* Articles - show larger images */
+body.page-node-type-article div#colorbox div#cboxTitle {
+	color: black;
+	font-size: 1.3em;	
+}

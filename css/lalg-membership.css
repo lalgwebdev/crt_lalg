@@ -14,6 +14,9 @@ fieldset.lalg-memb-delete-button .webform-custom-options-button {
   width: 200px;
   margin-right: 20px;
 }
+fieldset.lalg-memb-delete-button .webform-custom-options-button:hover {
+  cursor: grab;
+}
 span.deleted-notice {
   color: red;
   font-size: 1.4em;
