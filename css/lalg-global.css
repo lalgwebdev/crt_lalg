@@ -175,6 +175,10 @@ ul.sf-menu li {
   float: right;
   margin-left: 15px;
 }
+div#block-loggedoutblock {
+    float: right;
+    margin-left: 15px;
+}
 
 .site-branding {
   display: inline;
