@@ -331,3 +331,22 @@ body.page-node-type-article div#colorbox div#cboxTitle {
 	color: black;
 	font-size: 1.3em;	
 }
+/* Move events block to main region on mobiles as otherwise too far down to scroll */
+@media (min-width: 992px) {
+	div.lalg-group-events-content-region {
+		display: none;
+	}
+}
+@media (max-width: 992px) {
+	div.lalg-group-events-right-sidebar-region {
+		display: none;
+	}
+	div.block-views-blockgroup-membership-block-1 h2,
+	div.block-views-blockgroup-display-block-2 h2,
+	div.block-views-blockgroup-display-lalg-article-jump h2,
+	div.block-views-blockgroup-display-block-1 h2,
+	div.block-views-blockcontact-details-block-1 h2 {
+		padding-right: 16px;
+		width: 100%;
+	}	
+}
