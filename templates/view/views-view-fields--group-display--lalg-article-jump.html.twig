@@ -1,1 +1,1 @@
-<option value="{{ fields.view_node.content }}">{{ fields.title.content }}</option>
+<option value="{{ fields.view_node.content|striptags|trim }}">{{ fields.title.content|striptags|trim }}</option>
