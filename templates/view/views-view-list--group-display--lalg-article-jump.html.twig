@@ -1,6 +1,6 @@
 {{ attach_library('crt_lalg/lalg-articles-jump') }}
 <div id="lalg-article-jump" class="dropdown">
-    <select id="edit-jump" class="dropdown-toggle">
+    <select id="edit-jump" name="articles" class="dropdown-toggle">
         <option value="" selected="selected"> - Choose - </option>
         {% for row in rows %}
             {{ row.content }}
