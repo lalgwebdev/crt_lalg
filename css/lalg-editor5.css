@@ -1,0 +1,17 @@
+/* css/lalg-ckeditor5.css */
+
+.ck-editor__main .ck-content ul {
+  list-style-type: disc;
+}
+
+.ck-editor__main .ck-content ul ul {
+  list-style-type: circle;
+}
+
+.ck-editor__main .ck-content ol ol {
+  list-style-type: unset;
+}
+
+.ck-editor__main .ck-content table tr th {
+  background-color: #303030;
+}
