@@ -350,3 +350,19 @@ body.page-node-type-article div#colorbox div#cboxTitle {
 		width: 100%;
 	}	
 }
+
+/* articles index */
+div.lalg-view-group-articles {
+	display: flex;
+	flex-direction: column;
+}
+div.lalg-view-group-articles > header {
+	order: 2;
+	padding-bottom: 25px;
+}
+div.lalg-view-group-articles > form {
+	order: 1;
+}
+div.lalg-view-group-articles > div.views-row {
+	order: 3;
+}
