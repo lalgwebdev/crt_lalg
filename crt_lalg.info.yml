@@ -27,6 +27,6 @@ regions:
 # Information added by MJH on 2021-05-19
 version: '1.2.46' 
 core: '8.x'
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10
 project: 'crt_lalg'
 datestamp: 1621432195
