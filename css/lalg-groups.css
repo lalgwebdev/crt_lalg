@@ -326,6 +326,18 @@ div.groups-group-members td.views-field-dropbutton div.dropbutton-multiple div.d
 	padding: 0.3em;
 }
 
+/* Event Series */
+div.groups-event-series-admin td.views-field-dropbutton div.dropbutton-multiple.open div.dropbutton-widget {
+	background-color: white;
+}	
+div.groups-event-series-admin td.views-field-dropbutton div.dropbutton-multiple div.dropbutton-widget li.view-group-content,
+div.groups-event-series-admin td.views-field-dropbutton div.dropbutton-multiple div.dropbutton-widget li.edit-group-content,
+div.groups-event-series-admin td.views-field-dropbutton div.dropbutton-multiple div.dropbutton-widget li.delete-group-content,
+div.groups-event-series-admin td.views-field-dropbutton div.dropbutton-multiple div.dropbutton-widget li.edit-eventseries,
+div.groups-event-series-admin td.views-field-dropbutton div.dropbutton-multiple div.dropbutton-widget li.delete-eventseries {
+	padding: 0.3em;
+}
+
 /* Articles - show larger images */
 body.page-node-type-article div#colorbox div#cboxTitle {
 	color: black;
