@@ -378,3 +378,14 @@ div.lalg-view-group-articles > form {
 div.lalg-view-group-articles > div.views-row {
 	order: 3;
 }
+
+/* articles images in body */
+body.page-node-type-article div.lalg-view-grouplink div.views-field-label {
+	padding-bottom: 20px;
+}
+body.page-node-type-article div:not(.lalg-gallery-images) p img.align-left:not(.pd10) {
+	padding-right: 10px;
+}
+body.page-node-type-article div:not(.lalg-gallery-images) p img.align-right:not(.pd10) {
+	padding-left: 10px;
+}
