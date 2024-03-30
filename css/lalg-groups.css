@@ -397,3 +397,10 @@ body.page-node-type-article div:not(.lalg-gallery-images) p img.align-left:not(.
 body.page-node-type-article div:not(.lalg-gallery-images) p img.align-right:not(.pd10) {
 	padding-left: 10px;
 }
+
+/* Group events view */
+div.lalg-view-group-events nav.pager ul.pager__items {padding-left: 0;}
+div.lalg-view-group-events nav.pager ul.pager__items li.pager__item--previous,
+div.lalg-view-group-events nav.pager ul.pager__items li.pager__item--next {
+	display: none;
+}
