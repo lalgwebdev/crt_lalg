@@ -15,6 +15,7 @@ p, a, time {font-size: 1.3em; line-height: 135%;}
 p a, h2 a { font-size: 100%; line-height: 100%; color: #0a8ebd }
 ol, ul { padding-left: 40px }
 hr {border-top: 2px solid #ccc;}
+li p { font-size: inherit; }
 
 .region-sidebar-first .views-row a {font-size: 1.3em; }
 img {object-fit: cover;}
