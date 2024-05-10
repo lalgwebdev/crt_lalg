@@ -160,6 +160,11 @@ div.lalg-view-group-events {
 div.lalg-view-group-events div.views-field-date__value span {
   font-size: 1.3em;
 }
+@media (max-width: 1170px) {
+	div.lalg-view-group-events div.views-field-date__value span {
+		font-size: 1.1em;
+	}
+}
 
 div.lalg-view-group-events div.views-row {
   margin-bottom: 10px;
@@ -406,3 +411,4 @@ div.lalg-view-group-events nav.pager ul.pager__items li.pager__item--next {
 }
 
 article img[data-entity-type="file"] {padding-right: 10px; padding-bottom: 10px;}
+ 

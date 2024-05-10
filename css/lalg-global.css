@@ -329,7 +329,8 @@ div.sf-accordion-toggle.sf-style-blue > a:after {display: none;}
 }
 
 /* sidebars */
-.sidebar > .col-md-3 {
+.sidebar > .col-md-3,
+.sidebar > .col-md-4 {
     background-color: #1da9d31c;
     padding-bottom: 1.2em;
   border-radius: 10px;
