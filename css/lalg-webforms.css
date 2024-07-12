@@ -32,3 +32,23 @@ form.webform-submission-can-you-help-lalg--form input.webform-button--submit {
 	padding: 16px 0px;
     border-radius: 5px;
 }
+
+form div.lalg-webform-edi legend {border-bottom: none;}
+form div.lalg-webform-edi section {
+    border: 1px solid gray;
+    padding: 0 10px;
+    margin-bottom: 30px !important;
+}
+form div.lalg-webform-edi textarea,
+form div.lalg-webform-edi input[type="text"]   {max-width: 100%;}
+form div.lalg-webform-edi section div.js-form-item:hover {background-color: #ececec;}
+form.webform-submission-edi-survey-2024v2-form input[type="submit"] {
+    background-color: green !important;
+    background-image: none;
+    color: white;
+}
+form.webform-submission-lalg-diversity-equality-and-incl-form input[type="submit"]:hover {
+    background-color: #008000c9 !important;
+    background-image: none;
+	color: white;
+}
