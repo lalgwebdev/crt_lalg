@@ -357,15 +357,22 @@ body.page-node-type-article div#colorbox div#cboxTitle {
 	font-size: 1.3em;	
 }
 /* Move events block to main region on mobiles as otherwise too far down to scroll */
-@media (min-width: 992px) {
+@media (min-width: 993px) {
 	div.lalg-group-events-content-region {
 		display: none;
 	}
+	div.region-content div#block-crt-lalg-views-block-contact-details-block-1-2,
+	div.region-content div#block-crt-lalg-views-block-group-display-block-3
+		{display: none;}
 }
 @media (max-width: 992px) {
 	div.lalg-group-events-right-sidebar-region {
 		display: none;
 	}
+	div.region-sidebar-second div#block-crt-lalg-views-block-contact-details-block-1,
+	div.region-sidebar-second div#block-views-block-group-display-block-3
+		{display:none;}
+		
 	div.block-views-blockgroup-membership-block-1 h2,
 	div.block-views-blockgroup-display-block-2 h2,
 	div.block-views-blockgroup-display-lalg-article-jump h2,
