@@ -52,3 +52,21 @@ form.webform-submission-lalg-diversity-equality-and-incl-form input[type="submit
     background-image: none;
 	color: white;
 }
+
+/*  remove the red for display name fields
+form.webform-submission-user-contact-details-form label.form-displayname,
+form.webform-submission-user-contact-details-form label.form-contact-details-for-display {color: red;}
+
+form.webform-submission-administer-contact-details-form label.form-displayname,
+form.webform-submission-administer-contact-details-form label.form-contact-details-for-display {color: red;}
+*/
+
+
+fieldset.lalg-fieldset-for-group-contacts-only
+   {border: 1px solid gray;  margin: 25px 0; padding-left: 20px;}
+ 
+fieldset.lalg-fieldset-for-group-contacts-only legend
+    {font-size: 18px; border-bottom: none; margin-bottom: 0; width: inherit;}
+
+fieldset.lalg-fieldset-for-group-contacts-only legend span.fieldset-legend  
+   {padding: 0 10px;}
