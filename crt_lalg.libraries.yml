@@ -8,6 +8,7 @@ global-styling:
       css/lalg-search.css: { weight: 14 }
       css/lalg-site-search.css: { weight: 15 }
       css/lalg-webforms.css: { weight: 16 }
+      css/lalg-booking.css: { weight: 17 }
       css/lalg-legacy.css: { weight: 19 }
       css/lalg-editor5.css: { weight: 20 }
 #      css/temp.css: { weight: 21 }

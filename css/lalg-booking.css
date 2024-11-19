@@ -1,0 +1,4 @@
+/* Fix labels with white color on white background in CiviCRM  */
+.crm-container .crm-section .label {
+  color: black;
+}
