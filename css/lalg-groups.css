@@ -418,4 +418,9 @@ div.lalg-view-group-events nav.pager ul.pager__items li.pager__item--next {
 }
 
 article img[data-entity-type="file"] {padding-right: 10px; padding-bottom: 10px;}
+
+/* Editors Notes */
+textarea#edit-field-editor-s-notes-0-value {
+    background-color: #ffff0096;
+}
  
