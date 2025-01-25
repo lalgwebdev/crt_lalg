@@ -426,9 +426,9 @@ textarea#edit-field-editor-s-notes-0-value {
 
 
 /* Group contact details text */
-span.lalg-group-contact-details-text {font-size: 1.3em; line-height: 135%;}
-div.lalg-contact-details-text-view {margin-bottom: 20px}
-div.views-field.views-field-contact-details-text-43 {margin: 6px 0;}
+div.lalg-contact-details-text-view {margin-top: 8px; margin-bottom: 20px}
+div.lalg-contact-details-text-view views-row {margin-bottom: 4px;}
+div.lalg-contact-details-text-view span {font-size: 1.3em; line-height: 135%;}
  
 /* New Group contacts page */
 div.lalg-new-group-contacts-page td {border: none;}
