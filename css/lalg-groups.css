@@ -454,3 +454,7 @@ div.lalg-new-group-contacts-page td a {font-size: unset;}
 div.lalg-new-group-contacts-page table:nth-child(odd) tr {
     background-color: white !important;
 }
+
+/* Group members page */
+div.groups-group-members td.views-field-display-name {font-size: 1.3em;}
+div.groups-group-members td.views-field-membership-status-31 {font-size: 1.3em;}
