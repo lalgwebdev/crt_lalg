@@ -458,3 +458,8 @@ div.lalg-new-group-contacts-page table:nth-child(odd) tr {
 /* Group members page */
 div.groups-group-members td.views-field-display-name {font-size: 1.3em;}
 div.groups-group-members td.views-field-membership-status-31 {font-size: 1.3em;}
+
+/* Editors Notes */
+div.lalg-view-editors-notes header p {margin-bottom: 5px;}
+div.lalg-view-editors-notes div.views-field-display-name {padding-left: 10px}
+div.lalg-view-editors-notes div.lalg-view-editors-notes {margin-bottom: 8px}
