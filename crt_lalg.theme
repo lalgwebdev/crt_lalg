@@ -2,6 +2,11 @@
 use Drupal\Core\Form\FormStateInterface;
 
 function crt_lalg_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+	
+  if ($form_id == 'eventseries-lalg-event-add-form' || $form_id == 'eventseries_lalg_event_add_form') {
+	$form['#attached']['library'][] = 'crt_lalg/lalg-eventseriesform-tweaks';
+  }
+  
   if($form_id != 'group_content_group-group_membership_group-join_form'
   && $form_id != 'group_content_group-group_membership_group-leave_form') {
     return;

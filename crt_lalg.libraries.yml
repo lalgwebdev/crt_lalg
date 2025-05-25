@@ -25,3 +25,9 @@ lalg-articles-jump:
     js/lalg-select-jump.js: {}
   dependencies:
   - core/jquery
+
+lalg-eventseriesform-tweaks:
+  js:
+    js/lalg-eventseriesform-tweaks.js: {}   
+  dependencies:
+    - core/jquery
