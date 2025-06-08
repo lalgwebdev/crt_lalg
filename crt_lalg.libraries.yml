@@ -16,6 +16,7 @@ global-styling:
 global-scripts:
   js: 
     js/lalg-environment.js: {}   
+    js/lalg-memberstosubscribers.js: {}   
   dependencies:
     - core/jquery
     

@@ -463,3 +463,10 @@ div.groups-group-members td.views-field-membership-status-31 {font-size: 1.3em;}
 div.lalg-view-editors-notes header p {margin-bottom: 5px;}
 div.lalg-view-editors-notes div.views-field-display-name {padding-left: 10px}
 div.lalg-view-editors-notes div.lalg-view-editors-notes {margin-bottom: 8px}
+
+/* Subscribers page - remove left padding from roles column */
+div.groups-group-members table tbody td.views-field-group-roles ul {padding-left: 0;}
+th#view-display-name-table-column,
+th#view-membership-status-31-table-column,
+th#view-group-roles-table-column,
+th#view-dropbutton-table-column {font-size: 1.3em;}
