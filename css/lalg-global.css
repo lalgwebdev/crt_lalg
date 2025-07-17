@@ -475,22 +475,31 @@ div.lalg-linked-organisations td.views-field-nothing {
   }	
 }
 
-body.d9dev1 header.main-header {
-  background-image: none !important;
-  background-color: rgba(167,141,17,.36) !important;
-}
-body.d9dev2 header:first-of-type {
+/********************/
+/*  COLOUR HEADERS  */
+/********************/
+
+/* pink */
+body.d10dev1 header.main-header {
   background-image: none !important;
   background-color: rgba(167,17,141,.36) !important;
 }
-body.d9www header.main-header {
+/* beige */
+body.d10dev2 header.main-header {
   background-image: none !important;
-  background-color: rgba(17,101,167,.36) !important;
+  background-color: rgba(167,141,17,.36) !important;
 }
-body.d9ref header.main-header {
+/* green */
+body.d10test header.main-header {
   background-image: none !important;
   background-color: rgba(17,167,19,.5) !important;
 }
+/* light blue */
+body.d10tst2 header.main-header {
+  background-image: none !important;
+  background-color: rgba(17,101,167,.36) !important;
+}
+
   
 #views-form-frontpage-page-2 td {
 	padding-top: 8px;
