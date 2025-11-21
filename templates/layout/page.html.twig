@@ -58,6 +58,7 @@
  */
 #}
 
+{% set page_title = page['#title']|render|striptags|trim|lower|replace({' ': '_'}) %}
 
 <!-- Header and Navbar -->
 <header class="main-header">
@@ -142,7 +143,6 @@
   {% endif %}
 <!--End Highlighted-->
 
-
 <!-- Start Top Widget -->
 {% if page.topwidget_first or page.topwidget_second or page.topwidget_third %}
   <div class="topwidget">
@@ -193,7 +193,7 @@
 
 
 <!-- layout -->
-<div id="wrapper">
+<div id="wrapper" class="{{page_title }}">
   <!-- start: Container -->
   <div class="container">
     

@@ -470,3 +470,276 @@ th#view-display-name-table-column,
 th#view-membership-status-31-table-column,
 th#view-group-roles-table-column,
 th#view-dropbutton-table-column {font-size: 1.3em;}
+
+/* Edit an event instance */
+
+div.edit_event_instance div.lalg-event-series-text-block {
+	background-color: #f6f8fc;
+    padding: 10px;
+    margin: 20px 0;
+	border: 1px solid #3270c5;  
+}
+div.edit_event_instance div.lalg-event-series-text-block header p {
+	margin-top: 6px;
+}
+div.edit_event_instance div.lalg-event-series-text-block h2 {
+	margin: 0;
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+div.edit_event_instance div.lalg-event-series-text-block div.lalg-view-event-series-text div.views-field-field-series-title {
+	font-size: 1.3em;
+    margin: 16px 0 16px 0;
+}
+div.edit_event_instance div.lalg-event-series-text-block div.lalg-view-event-series-text div.views-field-field-series-title span.views-label-field-series-title {
+	font-weight: bold;
+}
+div.edit_event_instance div.lalg-event-series-text-block div.lalg-view-event-series-text div.views-field-field-series-description span.views-label-field-series-description {
+	font-size: 1.3em;
+    font-weight: bold;
+}
+div.edit_event_instance div.lalg-event-series-text-block span.views-label.views-label-edit-eventseries {
+    display: block;
+}
+
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.event-notifications div.event-notification-message {
+	display: none;
+}
+div.edit_event_instance form.eventinstance-lalg-event-edit-form {
+    margin-top: 50px;
+}
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.field--name-date {
+	padding-top: 12px;
+}
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.field--name-date legend {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.field--name-date div.fieldset-wrapper {
+	padding-left: 25px;
+}
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div#edit-field-instance-booking-details-0-format,
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div#edit-field-instance-description-0-format,
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div#edit-field-instance-contact-details-0-format  {
+	text-align: right;
+}
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div#edit-field-instance-booking-details-0-format a,
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div#edit-field-instance-description-0-format a,
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div#edit-field-instance-contact-details-0-format a  {
+	font-size: 1.1em;
+}
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.form-item-field-instance-title-0-value label[for="edit-field-instance-title-0-value"],
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.field--name-date legend,
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.form-item-field-instance-description-0-value label[for="edit-field-instance-description-0-value"],
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.form-item-field-instance-booking-details-0-value label[for="edit-field-instance-booking-details-0-value"],
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.form-item-field-instance-contact-details-0-value label[for="edit-field-instance-contact-details-0-value"] {
+	background-color: whitesmoke;
+	display: block;
+	font-size: 1.3em;
+    padding: 10px;
+}
+
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.form-item-field-instance-description-0-value,
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.form-item-field-instance-booking-details-0-value,
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.form-item-field-instance-contact-details-0-value {
+	margin-bottom: 4px;
+}
+
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.form-item-field-instance-description-0-format,
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.form-item-field-instance-booking-details-0-format,
+div.edit_event_instance form.eventinstance-lalg-event-edit-form div.form-item-field-instance-contact-details-0-format {
+	margin-top: 4px;
+    margin-bottom: 24px;
+}
+	
+/* Edit or ADD an event series */
+
+form.eventseries-lalg-event-edit-form h1 em.placeholder:first-child:before {
+    content: "Event Series ";
+    font-style: normal;
+}
+form.eventseries-lalg-event-edit-form h1 em.placeholder:first-child {
+	display: none;
+}
+form.eventseries-lalg-event-edit-form lalg-event-series-text-block {
+	display: none;
+}
+
+form.eventseries-lalg-event-edit-form label[for="edit-title-0-value"],
+form.eventseries-lalg-event-edit-form label[for="edit-field-series-title-0-value"],
+form.eventseries-lalg-event-edit-form label[for="edit-field-series-description-0-value"],
+form.eventseries-lalg-event-edit-form label[for="edit-field-series-booking-details-0-value"],
+form.eventseries-lalg-event-edit-form label[for="edit-field-series-contact-details-0-value"],
+form.eventseries-lalg-event-edit-form div.field--name-recur-type fieldset#edit-recur-type--wrapper span,
+form.eventseries-lalg-event-add-form div.field--name-title label,
+form.eventseries-lalg-event-add-form div.form-item-field-series-title-0-value label,
+form.eventseries-lalg-event-add-form div.form-item-field-series-description-0-value label[for="edit-field-series-description-0-value"],
+form.eventseries-lalg-event-add-form div.form-item-field-series-booking-details-0-value label[for="edit-field-series-booking-details-0-value"],
+form.eventseries-lalg-event-add-form div.form-item-field-series-contact-details-0-value label[for="edit-field-series-contact-details-0-value"],
+form.eventseries-lalg-event-add-form div.field--name-recur-type fieldset#edit-recur-type--wrapper span
+  {
+    display: block;
+    margin-top: 40px;
+    font-size: 1.3em;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+form.eventseries-lalg-event-edit-form label[for="edit-title-0-value"] {
+	margin-top: 20px;
+}
+form.eventseries-lalg-event-edit-form div#edit-field-series-description-0-format,
+form.eventseries-lalg-event-edit-form div#edit-field-series-booking-details-0-format,
+form.eventseries-lalg-event-edit-form div#edit-field-series-contact-details-0-format,
+form.eventseries-lalg-event-add-form div#edit-field-series-description-0-format,
+form.eventseries-lalg-event-add-form div#edit-field-series-booking-details-0-format,
+form.eventseries-lalg-event-add-form div#edit-field-series-contact-details-0-format
+ {
+	text-align: right;
+}
+form.eventseries-lalg-event-edit-form div#edit-field-series-description-0-format a,
+form.eventseries-lalg-event-edit-form div#edit-field-series-booking-details-0-format a,
+form.eventseries-lalg-event-edit-form div#edit-field-series-contact-details-0-format a,
+form.eventseries-lalg-event-add-form div#edit-field-series-description-0-format a,
+form.eventseries-lalg-event-add-form div#edit-field-series-booking-details-0-format a,
+form.eventseries-lalg-event-add-form div#edit-field-series-contact-details-0-format a {
+	font-size: 1.1em;
+}
+
+form.eventseries-lalg-event-edit-form div.field--name-recur-type div#edit-recur-type--wrapper--description {
+	display: none;
+}
+form.eventseries-lalg-event-edit-form div.field--name-monthly-recurring-date > fieldset,
+form.eventseries-lalg-event-edit-form div.field--name-weekly-recurring-date > fieldset,
+form.eventseries-lalg-event-edit-form div.field--name-daily-recurring-date > fieldset,
+form.eventseries-lalg-event-add-form div.field--name-monthly-recurring-date > fieldset,
+form.eventseries-lalg-event-add-form div.field--name-weekly-recurring-date > fieldset,
+form.eventseries-lalg-event-add-form div.field--name-daily-recurring-date > fieldset {
+	border: solid 1px grey;
+    padding: 20px;
+	margin-top: 24px;
+}
+form.eventseries-lalg-event-edit-form div.field--name-monthly-recurring-date > fieldset legend,
+form.eventseries-lalg-event-edit-form div.field--name-weekly-recurring-date  > fieldset legend,
+form.eventseries-lalg-event-edit-form div.field--name-daily-recurring-date > fieldset legend,
+form.eventseries-lalg-event-add-form div.field--name-monthly-recurring-date > fieldset legend,
+form.eventseries-lalg-event-add-form div.field--name-weekly-recurring-date  > fieldset legend,
+form.eventseries-lalg-event-add-form div.field--name-daily-recurring-date > fieldset legend
+ {
+	margin-bottom: 0;
+}
+form.eventseries-lalg-event-edit-form div.field--name-monthly-recurring-date legend,
+form.eventseries-lalg-event-edit-form div.field--name-weekly-recurring-date legend,
+form.eventseries-lalg-event-edit-form div.field--name-daily-recurring-date legend,
+form.eventseries-lalg-event-add-form div.field--name-monthly-recurring-date legend,
+form.eventseries-lalg-event-add-form div.field--name-weekly-recurring-date legend,
+form.eventseries-lalg-event-add-form div.field--name-daily-recurring-date legend
+ {
+	border-bottom: 0;
+}
+form.eventseries-lalg-event-edit-form div.field--name-monthly-recurring-date h4,
+form.eventseries-lalg-event-edit-form div.field--name-weekly-recurring-date h4,
+form.eventseries-lalg-event-edit-form div.field--name-daily-recurring-date h4,
+form.eventseries-lalg-event-add-form div.field--name-monthly-recurring-date h4,
+form.eventseries-lalg-event-add-form div.field--name-weekly-recurring-date h4,
+form.eventseries-lalg-event-add-form div.field--name-daily-recurring-date h4
+ {
+	font-weight: bold;
+}
+form.eventseries-lalg-event-edit-form div.field--name-monthly-recurring-date div.form-item-monthly-recurring-date-0-time,
+form.eventseries-lalg-event-edit-form  fieldset#edit-monthly-recurring-date-0-type--wrapper legend,
+form.eventseries-lalg-event-edit-form  fieldset#edit-weekly-recurring-date-0-days--wrapper legend,
+form.eventseries-lalg-event-edit-form div.form-item-daily-recurring-date-0-time,
+form.eventseries-lalg-event-edit-form div.form-item-daily-recurring-date-0-duration,
+form.eventseries-lalg-event-edit-form div.form-item-weekly-recurring-date-0-time,
+form.eventseries-lalg-event-edit-form div.form-item-weekly-recurring-date-0-duration,
+form.eventseries-lalg-event-add-form div.field--name-monthly-recurring-date div.form-item-monthly-recurring-date-0-time,
+form.eventseries-lalg-event-add-form  fieldset#edit-monthly-recurring-date-0-type--wrapper legend,
+form.eventseries-lalg-event-add-form  fieldset#edit-weekly-recurring-date-0-days--wrapper legend,
+form.eventseries-lalg-event-add-form div.form-item-daily-recurring-date-0-time,
+form.eventseries-lalg-event-add-form div.form-item-daily-recurring-date-0-duration,
+form.eventseries-lalg-event-add-form div.form-item-weekly-recurring-date-0-time,
+form.eventseries-lalg-event-add-form div.form-item-weekly-recurring-date-0-duration
+
+  {
+	padding-top: 20px;
+}
+form.eventseries-lalg-event-edit-form div.form-item-weekly-recurring-date-0-weekly-interval,
+form.eventseries-lalg-event-add-form div.form-item-weekly-recurring-date-0-weekly-interval
+ {
+	padding-bottom: 10px;
+}
+
+/* Edit an event series caution notice */
+span.usewithcaution {
+    padding-bottom: 10px;
+    display: block;
+    color: red;
+    font-size: 1.2em;
+}
+
+/* Highlight mark for deletion */
+div.lalg-mark-delete {color: red;}
+span.exmark {font-size: 1.5em; font-weight: bold;}
+
+/* Don't display the admin title when adding an event series - NON admins */
+body.lalg-non-admin form.eventseries-lalg-event-add-form div.field--name-title,
+body.lalg-non-admin form.eventseries-lalg-event-edit-form div.field--name-title
+ {display: none;}
+
+/* When adding or editing an article, make the archived field and the mark for deletion field bigger */
+form.node-article-edit-form div.form-item-field-archived-value,
+form.node-article-edit-form div.form-item-field-mark-for-deletion-value,
+form.node-article-form div.form-item-field-archived-value,
+form.node-article-form div.form-item-field-mark-for-deletion-value
+	{font-size: 1.2em;}
+form.node-article-edit-form div.form-item-field-archived-value input,
+form.node-article-edit-form div.form-item-field-mark-for-deletion-value input,
+form.node-article-form div.form-item-field-archived-value input,
+form.node-article-form div.form-item-field-mark-for-deletion-value input 
+	{transform: scale(1.25);}
+
+/* Display an Event Series */
+div.lalg-eventseries-display {font-size: 1.3em;}
+div.lalg-eventseries-display p, div.lalg-eventseries-display a {font-size: 1.0em;}
+div.lalg-eventseries-display p.lalg-eventseries-display-heading {
+    background-color: whitesmoke;
+    font-size: 1.3em;
+    padding: 6px;
+    margin-top: 24px;
+}
+div.lalg-eventseries-display div.lalg-eventseries-display-heading-title, 
+div.lalg-eventseries-display div.lalg-eventseries-display-heading-contact-details, 
+div.lalg-eventseries-display div.lalg-eventseries-display-heading-event-instances {
+	font-weight: bold;
+}
+div.lalg-eventseries-display div.lalg-eventseries-display-heading-description,
+div.lalg-eventseries-display div.lalg-eventseries-display-heading-recur-type {
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+/* Display an Event Instance */
+
+div.lalg-eventinstance-display p.lalg-eventinstance-display-heading {
+	background-color: whitesmoke;
+    font-size: 1.3em;
+    padding: 6px;
+    margin-top: 24px;
+	font-weight: bold;
+}
+
+div.lalg-eventinstance-display div.lalg-eventinstance-display-booking-details, 
+div.lalg-eventinstance-display div.lalg-eventinstance-display-contact-details {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+div.lalg-eventinstance-display div.lalg-eventinstance-display-time-div {
+	margin-bottom: 20px;
+}
+div.lalg-eventinstance-display span.lalg-eventinstance-display-time-heading {
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+	

@@ -3,7 +3,7 @@ use Drupal\Core\Form\FormStateInterface;
 
 function crt_lalg_form_alter(&$form, FormStateInterface $form_state, $form_id) {
 	
-  if ($form_id == 'eventseries-lalg-event-add-form' || $form_id == 'eventseries_lalg_event_add_form') {
+  if ($form_id == 'eventseries-lalg-event-add-form' || $form_id == 'eventseries_lalg_event_add_form' || $form_id == 'eventseries-lalg-event-edit-form' || $form_id == 'eventseries_lalg_event_edit_form') {
 	$form['#attached']['library'][] = 'crt_lalg/lalg-eventseriesform-tweaks';
   }
   
@@ -64,4 +64,12 @@ function crt_lalg_preprocess_page(&$variables) {
   else {
     $variables['contentlayout'] = 'col-md-12';
   }
+}
+
+function crt_lalg_preprocess_eventseries(&$variables) {
+	$variables['#attached']['library'][] = 'crt_lalg/lalg-eventseriesform-tweaks';
+}
+
+function crt_lalg_preprocess_eventinstance(&$variables) {
+	$variables['#attached']['library'][] = 'crt_lalg/lalg-eventseriesform-tweaks';
 }
