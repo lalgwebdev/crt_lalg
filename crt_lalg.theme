@@ -73,3 +73,9 @@ function crt_lalg_preprocess_eventseries(&$variables) {
 function crt_lalg_preprocess_eventinstance(&$variables) {
 	$variables['#attached']['library'][] = 'crt_lalg/lalg-eventseriesform-tweaks';
 }
+
+function crt_lalg_preprocess_html(&$variables) {
+	 if (\Drupal::routeMatch()->getRouteName() == "entity.eventseries.edit_form") {
+		 $variables['attributes']['class'][] = 'event-series-edit-form-page';
+	 }
+}

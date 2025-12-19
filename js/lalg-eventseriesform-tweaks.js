@@ -53,6 +53,10 @@
 			$("<span class='lalg-eventinstance-display-time-heading'>Date & Time</span>").insertBefore("time.lalg-eventinstance-display-time");
 		}
 		
+		$("div#block-crt-lalg-local-tasks ul li").filter(function() {
+			return $(this).text() === "Clone";
+		}).addClass("lalg-clone");
+		
     }
   }
 })(jQuery, Drupal);
