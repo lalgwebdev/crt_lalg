@@ -755,3 +755,7 @@ border-radius: revert;
 font-size: 18px;}
 body.page-node-type-article article.node--type-article div.node__content h2 {
 	font-size: 18px;}
+	
+/* Calendar */
+div.lalg-calendar div.view-item div.views-field-gid h6 {font-size: 1.1em;     margin-top: 4px;     margin-bottom: 4px;}
+div.lalg-calendar div.view-item div.views-field-title {line-height: 120%;}
