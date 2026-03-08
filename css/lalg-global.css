@@ -546,3 +546,22 @@ div[data-oembed-url^="https://youtu.be"] iframe {
 	width: 100%;
 	height: 100%;	
 }
+
+/* Save button */
+input[value="Save"] {
+	color: white;
+    background-color: #003ecc;
+	background-image: none;
+	font-size: 16px;
+	padding: 14px;
+	margin: 12px 20px 12px 0;
+	border-radius: 6px;
+	}
+input[value="Save"]:hover {
+  background-color: #0036B1;
+  background-image: none;
+}
+form a[data-drupal-selector="edit-delete"]  {
+	color: red;
+	font-size: 16px;
+}
