@@ -759,3 +759,11 @@ body.page-node-type-article article.node--type-article div.node__content h2 {
 /* Calendar */
 div.lalg-calendar div.view-item div.views-field-gid h6 {font-size: 1.1em;     margin-top: 4px;     margin-bottom: 4px;}
 div.lalg-calendar div.view-item div.views-field-title {line-height: 120%;}
+
+/* Font size issue when editing an event series or instance */
+form.eventseries-lalg-event-edit-form div.js-form-type-textarea p,
+form.eventinstance-lalg-event-edit-form div.js-form-type-textarea p {font-size: 1em;}
+
+form.eventseries-lalg-event-edit-form div.form-item-title-0-value input,
+form.eventseries-lalg-event-edit-form div.form-item-field-series-title-0-value input,
+form.eventinstance-lalg-event-edit-form div.form-item-field-instance-title-0-value input {font-size: 1.3em;}
