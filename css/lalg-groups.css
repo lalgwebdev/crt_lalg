@@ -113,7 +113,8 @@ div.block-group h2,
 .block-views-blockcontact-details-block-1 h2,
 .block-views-blockgroup-display-block-2 h2,
 .block-views-blockgroup-membership-block-1 h2,
-.block-views-blockadd-content-block-1 h2 {
+.block-views-blockadd-content-block-1 h2,
+.block-views-blockgroup-display-v2-articles-block-1 h2 {
    color: white;
    background-color: #0a8ebd;
    padding: 6px;
@@ -377,7 +378,8 @@ body.page-node-type-article div#colorbox div#cboxTitle {
 	div.block-views-blockgroup-display-block-2 h2,
 	div.block-views-blockgroup-display-lalg-article-jump h2,
 	div.block-views-blockgroup-display-block-1 h2,
-	div.block-views-blockcontact-details-block-1 h2 {
+	div.block-views-blockcontact-details-block-1 h2,
+    div.block-views-blockgroup-display-v2-articles-block-1 h2 {
 		padding-right: 16px;
 		width: 100%;
 	}	
@@ -767,3 +769,25 @@ form.eventinstance-lalg-event-edit-form div.js-form-type-textarea p {font-size: 
 form.eventseries-lalg-event-edit-form div.form-item-title-0-value input,
 form.eventseries-lalg-event-edit-form div.form-item-field-series-title-0-value input,
 form.eventinstance-lalg-event-edit-form div.form-item-field-instance-title-0-value input {font-size: 1.3em;}
+
+/* archived checkbox */
+div.form-item-field-archived-value label {display: inline-block; padding-left: 8px; padding-bottom: 8px; font-size: 1.3em;}
+
+/* read more */
+div.lalg-view-group-articles div.views-field-nothing {clear: both; padding-top: 8px;}
+
+/* Archived articles */
+div.lalg-view-group-articles form div.form-item-field-archived-value {
+	background-color: #1da9d31c; padding: 12px; }
+div.lalg-view-group-articles form div.form-item-field-archived-value input {
+width: 32px; height: 32px;  margin: 8px 6px 0 16px; float:right; outline: 1px solid #0a8ebd;}
+div.lalg-view-group-articles form div.form-item-field-archived-value label {
+vertical-align: middle; padding-bottom: 0px; line-height: 150%;}
+
+div.lalg-view-group-articles-jump span.lalg-article-jump-heading {
+    font-size: 1.3em;
+    font-weight: bold;
+    display: block;
+    margin: 20px 0px 10px 20px;
+}
+div.lalg-view-group-articles-jump select#edit-jump {font-size: 1.3em; border: 1px solid #0a8ebd; border-radius: 10px;}
