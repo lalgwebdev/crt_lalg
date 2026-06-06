@@ -379,7 +379,7 @@ body.page-node-type-article div#colorbox div#cboxTitle {
 	div.block-views-blockgroup-display-lalg-article-jump h2,
 	div.block-views-blockgroup-display-block-1 h2,
 	div.block-views-blockcontact-details-block-1 h2,
-    div.block-views-blockgroup-display-v2-articles-block-1 h2 {
+.block-views-blockgroup-display-v2-articles-block-1 h2 {
 		padding-right: 16px;
 		width: 100%;
 	}	
@@ -583,7 +583,7 @@ form.eventseries-lalg-event-add-form div.field--name-recur-type fieldset#edit-re
   {
     display: block;
     margin-top: 40px;
-    font-size: 1.3em;
+
     background-color: whitesmoke;
     padding: 10px;
 }
@@ -694,7 +694,7 @@ form.node-article-edit-form div.form-item-field-archived-value,
 form.node-article-edit-form div.form-item-field-mark-for-deletion-value,
 form.node-article-form div.form-item-field-archived-value,
 form.node-article-form div.form-item-field-mark-for-deletion-value
-	{font-size: 1.2em;}
+	{font-size: 1.0em;}
 form.node-article-edit-form div.form-item-field-archived-value input,
 form.node-article-edit-form div.form-item-field-mark-for-deletion-value input,
 form.node-article-form div.form-item-field-archived-value input,
@@ -771,7 +771,9 @@ form.eventseries-lalg-event-edit-form div.form-item-field-series-title-0-value i
 form.eventinstance-lalg-event-edit-form div.form-item-field-instance-title-0-value input {font-size: 1.3em;}
 
 /* archived checkbox */
-div.form-item-field-archived-value label {display: inline-block; padding-left: 8px; padding-bottom: 8px; font-size: 1.3em;}
+div.form-item-field-archived-value label {display: inline-block; padding-left: 8px; padding-bottom: 8px; }
+div.form-item-field-mark-for-deletion-value label {display: inline-block; padding-left: 8px; padding-bottom: 8px;}
+div.lalg-view-group-articles div.form-item-field-archived-value label {font-size: 1.3em;}
 
 /* read more */
 div.lalg-view-group-articles div.views-field-nothing {clear: both; padding-top: 8px;}
@@ -791,3 +793,25 @@ div.lalg-view-group-articles-jump span.lalg-article-jump-heading {
     margin: 20px 0px 10px 20px;
 }
 div.lalg-view-group-articles-jump select#edit-jump {font-size: 1.3em; border: 1px solid #0a8ebd; border-radius: 10px;}
+
+/* Issue with font size when adding or editing an article or event */
+form.node-article-form, 
+form.node-article-edit-form  {font-size: 16px; line-height: 135%;}
+form.node-article-form label, 
+form.node-article-form input,
+form.node-article-form p,
+form.node-article-edit-form label, 
+form.node-article-edit-form input,
+form.node-article-edit-form p {font-size: 1em;}
+
+form.node-article-form div[data-drupal-selector="edit-body-0-format-help"] a, 
+form.node-article-edit-form div[data-drupal-selector="edit-body-0-format-help"] a  
+   {font-size: 12px;}
+   
+form.node-article-form div.field--name-title {padding: 12px 0;}
+form.node-article-edit-form div.field--name-title {padding-bottom: 12px;}
+
+form.eventseries-lalg-event-add-form {font-size: 16px; line-height: 135%;}
+form.eventseries-lalg-event-add-form label,
+form.eventseries-lalg-event-add-form input,
+form.eventseries-lalg-event-add-form p {font-size: 1em;}
