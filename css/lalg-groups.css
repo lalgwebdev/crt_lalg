@@ -815,3 +815,5 @@ form.eventseries-lalg-event-add-form {font-size: 16px; line-height: 135%;}
 form.eventseries-lalg-event-add-form label,
 form.eventseries-lalg-event-add-form input,
 form.eventseries-lalg-event-add-form p {font-size: 1em;}
+
+div.lalg-eventseries-display > div > div:first-child  {font-weight: bold;}
