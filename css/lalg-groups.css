@@ -500,6 +500,14 @@ div.edit_event_instance div.lalg-event-series-text-block div.lalg-view-event-ser
 	font-size: 1.3em;
     font-weight: bold;
 }
+div.edit_event_instance div.lalg-event-series-text-block div.lalg-view-event-series-text div.views-field-field-series-booking-details span.views-label-field-series-booking-details {
+	font-size: 1.3em;
+    font-weight: bold;
+}
+div.edit_event_instance div.lalg-event-series-text-block div.lalg-view-event-series-text div.views-field-field-series-contact-details span.views-label-field-series-contact-details {
+	font-size: 1.3em;
+    font-weight: bold;
+}
 div.edit_event_instance div.lalg-event-series-text-block span.views-label.views-label-edit-eventseries {
     display: block;
 }
