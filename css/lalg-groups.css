@@ -753,8 +753,8 @@ div.lalg-eventinstance-display span.lalg-eventinstance-display-time-heading {
     font-weight: bold;
 }
 
-/* Hide clone for non admins on event series edit pages */
-body.lalg-non-admin.event-series-edit-form-page div.region-content div.block-local-tasks-block li.lalg-clone {display: none;}
+/* Hide clone for non admins on event series edit pages 
+body.lalg-non-admin.event-series-edit-form-page div.region-content div.block-local-tasks-block li.lalg-clone {display: none;} */
 
 /* Fix H2 when displaying group articles */
 div.lalg-view-group-articles div.views-field-body div.field-content h2 {color: #000; 
